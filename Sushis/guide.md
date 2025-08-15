@@ -67,7 +67,7 @@ Vocabulaire traditionnel
 Donabé  : La gamelle de cuisson du riz traditionnelle
 Hinoki/ bois de Cyprès : materiau du grand bol pour mélanger le riz avec la préparation vinaigrée.
 Shamoji : La cuillère à riz.
-Shiojime: tightening with salt ?
+Shiojime: tightening with salt. C'est le processus de salage d'un poisson pour lui faire rendre son surplus d'humidité, et concentrer les saveurs de la chair. 
 Tezu/temizu : Le petit bol de vinaigre et d'eau qu'on utilise pour mouiller nos mains avant de manipuler le riz à sushi. Ce mélange permet de ne pas retirer l'assaisonnement du riz, mais sert également à tuer les éventuelles bactéries présentes sur la peau. On utilise une proportion d'environ  2/5 pour le vinaigre.
 
 
