@@ -45,4 +45,21 @@ La chair doit être ferme.
 On peut également le congeler avec son papier absorbant.
 Pour l'utiliser, on le laissera décongeler doucement au réfrigérateur la nuit précédente.
 
+## Quelques techniques de préparations
 
+### Poisson maturé 
+
+La qualité du sushi préparé par la plupart des restaurants de sushis japonais ne vient pas exclusivement de la fraîcheur du poisson utilisé. 
+Le poisson servi peut avoir subi un traitement de maturation, qui peut durer d'une journée à plusieurs semaines, dans le but d'améliorer sa texture et ses saveurs.
+On imagine facilement que les différents procédés utilisés proviennent d'une époque précédant l'appparition de la réfrigération moderne. 
+
+Il existe deux familles de procédés : la maturation à sec, et la maturation humide. 
+Pour la fabrication des sushis à la maison, on retiendra surtout la deuxième famille, beaucoup plus simple à mettre en place sans équipements professionnels coûteux. 
+[[1]](https://thejapanesefoodlab.com/fish-ageing-science/), [[2]](https://thejapanesefoodlab.com/aging-fish-science/)
+
+### Kombujime
+
+[Kombujime](https://thejapanesefoodlab.com/kombujime/) est une technique de poisson maturé consistant à emballer les tranches de poissons entre des morceaux de kombu, préalablement réhydraté avec un alcool dilué. 
+Le kombu transfére ainsi une partie de son glutamate au poisson, améliorant son goût. 
+
+Elle est surtout utilisée pour les poissons à chair blanche, dont les saveurs sont plus subtiles. 

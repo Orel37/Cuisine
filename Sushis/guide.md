@@ -9,20 +9,28 @@ Pour commencer, mesurer le volume de riz à utiliser, afin d'utiliser le même v
 
 ## Lavage
 
-Remplir un saladier d'eau, et immerger le riz à l'aide d'une passoire. Frotter gentiment le riz pendant 20 à 30 secondes maximum, sans exercer de pression, puis jeter immédiatement l'eau de lavage. Cette étape doit se faire rapidement pour éviter au riz d'absorber l'eau riche en amidon.
+Remplir un saladier d'eau, et immerger le riz à l'aide d'une passoire. 
+Frotter gentiment le riz pendant 20 à 30 secondes maximum, sans exercer de pression, puis jeter immédiatement l'eau de lavage. 
+Cette étape doit se faire rapidement pour éviter au riz d'absorber l'eau riche en amidon.
 
-Laver de cette façon encore 3 ou 4 fois, selon la transparence de l'eau de lavage. Il est inutile de laver jusqu'à obtenir une eau parfaitement claire. Au contraire, Un riz trop lavé perd de sa sucrosité et de son goût, et casse plus facilement.
-Laisser tremper le riz pendant un minimum de 10-15 min, mais idéalement 1h. S'il fait un peu chaud, mettre le riz au réfrigérateur. Le but et de laisser le riz absorber de l'eau avant la cuisson. A la fin du trempage, le riz a perdu de sa transparence, et doit être notablement plus blanc.
+Laver de cette façon encore 3 ou 4 fois, selon la transparence de l'eau de lavage. 
+Il est inutile de laver jusqu'à obtenir une eau parfaitement claire. Au contraire, Un riz trop lavé perd de sa sucrosité et de son goût, et casse plus facilement.
+Laisser tremper le riz pendant un minimum de 10-15 min, mais idéalement 1h. 
+S'il fait un peu chaud, mettre le riz au réfrigérateur. 
+Le but et de laisser le riz absorber de l'eau avant la cuisson. 
+À la fin du trempage, le riz a perdu de sa transparence, et doit être notablement plus blanc.
 Laisser égoutter le riz obtenu pendant une dizaine de minutes, jusqu'à ce qu'il ne goutte plus.
 
 
 ## Cuisson 
 
-La quantité d'eau à utiliser dépend du riz, et du cuiseur. C'est une quantité à déterminer soi-même en testant au fur et à mesure. On peut commencer avec 540mL d'eau pour 450g de riz sec (sortant du sac).
+La quantité d'eau à utiliser dépend du riz, et du cuiseur. 
+C'est une quantité à déterminer soi-même en testant au fur et à mesure. 
+On peut commencer avec 540mL d'eau pour 450g de riz sec (sortant du sac).
+
 La cuisson se fait facilement grâce à un cuiseur à riz, en mode cuisson rapide.
 
 ## Mélange avec le vinaigre
-
 
 La préparation vinaigrée se fait selon les proportions suivantes :
 * 2 doses de vinaigre de riz
@@ -39,13 +47,21 @@ Ensuite, "couper" le riz avec la cuillère, afin de séparer les grains, et de l
 
 Laisser reposer le riz en recouvrant le bol de riz d'un linge humide, jusqu'à ce que le riz soit à la bonne température pour la préparation des sushis.
 
+## Mes proportions 
+
+Avec mon matériel, et mes ingrédients habituelles, j'obtiens un bon résultat avec les proportions suivantes : 
+
+* Pour la cuisson du riz, j'ai utilisé 480mL d'eau pour 450g de riz sec.
+* Pour assaisonner la même quantité de riz, j'utilise 9 cuillères à soupe de vinaigre de riz, 4 de sucre, et 1 de sel.
+
+
 ## Tranchage du poisson pour les Nigiri sushis
 
 Se rapporter à la section [./poisson.md](Poisson). 
 
 ## Nigiri Sushis
 
-Le nigiri sushi est un sushi composé d'un pavé de riz surmonté d'une tranche de poisson crue.
+Le nigiri sushi est un sushi composé d'un pavé de riz (sharidama) surmonté d'une tranche de poisson, de crustacé ou de mollusque crue, salée ou fumée (netta).
 
 On commence par se mouiller les mains avec un tezu.
 
@@ -63,7 +79,6 @@ En gardant le pouce gauche sur la partie haut du riz, appliquer une pression ave
 
 # Vocabulaire traditionnel
 
-Vocabulaire traditionnel
 Donabé  : La gamelle de cuisson du riz traditionnelle
 Hinoki/ bois de Cyprès : materiau du grand bol pour mélanger le riz avec la préparation vinaigrée.
 Shamoji : La cuillère à riz.
@@ -84,3 +99,4 @@ Couper un saumon entier : https://www.youtube.com/watch?v=cH7jFk-C8qI
 * https://www.youtube.com/@Sushi_Masa_Home_JP
 * https://www.youtube.com/@tokyosushiacademyenglishcourse
 * https://www.youtube.com/@yamacuisine
+* https://thejapanesefoodlab.com/
