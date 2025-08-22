@@ -5,16 +5,40 @@
 
 
 ## Anatomie d'un couteau
-[//]: # (TODO : Expliquer les différentes parties d'un couteau)
+
 ### Profil
-Fil
-la pointe
-La mitre
-La soie
 
-https://www.toc.fr/info/67-l-anatomie-d-un-couteau
+![Anatomie d'un couteau](/Aiguisage/img/anatomie-couteau.png "Anatomie d'un couteau")
 
-Inclure un schéma
+Les différentes parties indiquées sur le schéma sont : 
+1. **La pointe.**
+C'est la jonction entre le tranchant de la lame et du dos du couteau. 
+Cette extrémité peut-être pointue, ou arrondie. 
+2. **Le fil.**
+C'est le tranchant de la lame, qui demande un entretien régulier pour conserver une bonne qualité de coupe.
+3. **Le dos.**
+Il est opposé au fil. 
+Il permet de donner la robustesse et la précision de la lame lors de la coupe.
+4. **La mitre.**
+Il relie la lame et le manche, et permet de solidifier le couteau. 
+Sur certains couteaux comme les Laguiole, le dos de la mitre est décoré (abeille).
+5. **La garde.**
+Elle protège la main lors de la coupe, en l'empêchant de glisser sur le fil.
+6. **Les rivets.** 
+Ils permettent de fixer les côtes contre la soie du couteau, pour garantir une solidité du manche.
+7. **Les côtes.**
+Ils sont fixés de part et d'autre de la soie, et apportent esthétisme et ergonomie au manche du couteau.
+8. **La lame.**
+Elle compose les principales qualités esthétiques et techniques au couteau.
+Sa qualité est essentielle pour assurer une bonne coupe. 
+Elle peut être faite en acier, en céramique, en titane, ou avec un mélange de plusieurs métaux. 
+La rigidité et la forme du couteau doivent être adaptées à l'usage prévu. 
+9.  **La soie.**
+Ell prolonge la lame du couteau dans le manche. 
+Si elle s'étend sur toute la longueur, on parle de couteau pleine soie.
+À la moitié, on parle alors de couteau demi-soie. 
+Plus la soie est longue, plus le couteau est robuste.
+
 
 
 ### Géométrie
@@ -92,6 +116,7 @@ https://www.couteaux-loupapet.fr/la-geometrie-des-lames-en-coutellerie/
 https://kaitsuko.fr/collections/aiguiseur-de-couteau-pierre-fusil-ou-electrique
 https://kaitsuko.fr/blogs/infos/quelles-sont-les-differentes-methodes-daiguisage-des-couteaux-de-cuisine-japonais
 https://atmakitchenware.fr/blogs/mediatma/affuter-et-aiguiser-un-couteau-quelle-difference
+https://www.toc.fr/info/67-l-anatomie-d-un-couteau
 
 
 
