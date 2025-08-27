@@ -39,6 +39,12 @@
   padding-bottom: var(--spacing-xs);
 }
 
+.precision {
+  font-size: var(--font-size-section-compact);
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
 /* === LISTES === */
 .ingredients ul {
   padding-left: 18px;
