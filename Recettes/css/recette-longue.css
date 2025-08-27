@@ -1,0 +1,69 @@
+/* ===== RECETTE LONGUE - STYLES SPÉCIFIQUES ===== */
+
+/* Import des dépendances */
+@import url('fonts.css');
+@import url('variables.css');
+@import url('base.css');
+
+/* === CONTAINER SPÉCIFIQUE === */
+.recipe-container {
+  height: var(--container-height-compact);
+}
+
+/* === TITRE === */
+.title {
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: var(--font-size-title-compact);
+}
+
+/* === LAYOUT COMPACT === */
+.content {
+  padding: var(--spacing-md);
+}
+
+.ingredients {
+  flex: 0 0 var(--ingredients-width-compact);
+  padding-right: var(--spacing-lg);
+}
+
+.instructions {
+  flex: 1;
+  padding-left: var(--spacing-lg);
+}
+
+/* === TITRES DE SECTIONS === */
+.ingredients h2, 
+.instructions h2 {
+  font-size: var(--font-size-section-compact);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-xs);
+}
+
+/* === LISTES COMPACTES === */
+.ingredients ul {
+  padding-left: var(--spacing-xl);
+}
+
+.ingredients li {
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-text-compact);
+  line-height: var(--line-height-tight);
+}
+
+/* === INSTRUCTIONS SIMPLES (SANS CERCLES) === */
+.instructions ol {
+  padding-left: var(--spacing-xl);
+  list-style: decimal;
+}
+
+.instructions li {
+  margin-bottom: 6px;
+  font-size: var(--font-size-text-compact);
+  line-height: var(--line-height-compact);
+  padding-left: 0;
+}
+
+/* Désactiver les cercles numérotés pour économiser l'espace */
+.instructions li:before {
+  display: none;
+}

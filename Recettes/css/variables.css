@@ -1,0 +1,58 @@
+/* ===== VARIABLES CSS ===== */
+:root {
+  /* === COULEURS === */
+  --color-primary-blue: #52abce;     /* Bleu clair principal */
+  --color-secondary-blue: #4682B4;   /* Bleu foncé pour accents */
+  --color-white: #ffffff;
+  --color-text-dark: #2F4F4F;        /* Texte foncé pour titres */
+  --color-text-gray: #666;           /* Texte gris pour abréviations */
+  --color-background-light: #f8fcff; /* Arrière-plan très léger */
+  
+  /* === DIMENSIONS PAGE === */
+  --page-width: 210mm;               /* A5 largeur */
+  --page-height: 148mm;              /* A5 hauteur */
+  --margin-horizontal: 25mm;         /* Marges gauche/droite */
+  
+  /* === CONTAINERS === */
+  --container-width: 160mm;          /* Largeur du contenu */
+  --container-height-normal: 138mm;  /* Hauteur recette courte */
+  --container-height-compact: 142mm; /* Hauteur recette longue */
+  
+  /* === ESPACEMENTS === */
+  --spacing-xs: 2px;
+  --spacing-sm: 4px;
+  --spacing-md: 8px;
+  --spacing-lg: 12px;
+  --spacing-xl: 15px;
+  --spacing-xxl: 20px;
+  
+  /* === TYPOGRAPHIE === */
+  --font-family-title: 'Merriweather', 'Georgia', serif;
+  --font-family-base: 'PT Sans', 'Segoe UI', sans-serif;
+  
+  --font-size-title-normal: 22px;    /* Titre recette courte */
+  --font-size-title-compact: 20px;   /* Titre recette longue */
+  --font-size-section-normal: 16px;  /* Sections recette courte */
+  --font-size-section-compact: 14px; /* Sections recette longue */
+  --font-size-text-normal: 12px;     /* Texte recette courte */
+  --font-size-text-compact: 11px;    /* Texte recette longue */
+  --font-size-number: 11px;          /* Numéros dans cercles */
+  --font-size-abbr: 10px;            /* Abréviations */
+  
+  --line-height-normal: 1.4;
+  --line-height-compact: 1.3;
+  --line-height-tight: 1.2;
+  
+  /* === LAYOUTS === */
+  --ingredients-width-normal: 30%;   /* Largeur ingrédients recette courte */
+  --ingredients-width-compact: 25%;  /* Largeur ingrédients recette longue */
+  
+  /* === ÉLÉMENTS UI === */
+  --border-radius-container: 5px;
+  --border-radius-circle: 50%;
+  --border-width-separator: 2px;
+  --circle-size-normal: 20px;        /* Cercles numérotés */
+  --shadow-container: 0 2px 8px rgba(0,0,0,0.1);
+  --shadow-circle: 0 2px 4px rgba(0,0,0,0.2);
+  --text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,95 @@
+/* ===== STYLES DE BASE COMMUNS ===== */
+
+/* === CONFIGURATION PAGE === */
+@page {
+  size: A5 landscape;
+  margin: 0;
+}
+
+/* === IMPRESSION - FORCE LES COULEURS === */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  .title {
+    background: var(--color-primary-blue) !important;
+    color: var(--color-white) !important;
+  }
+}
+
+/* === STRUCTURE PRINCIPALE === */
+body {
+  width: var(--page-width);
+  height: var(--page-height);
+  margin: 0;
+  padding: 0 var(--margin-horizontal);
+  font-family: var(--font-family-base);
+  background: var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-container {
+  width: var(--container-width);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-container);
+  border-radius: var(--border-radius-container);
+  overflow: hidden;
+}
+
+/* === TITRE === */
+.title {
+  background: var(--color-primary-blue);
+  color: var(--color-white);
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--font-family-title);
+  text-shadow: var(--text-shadow);
+}
+
+/* === CONTENU PRINCIPAL === */
+.content {
+  display: flex;
+  flex: 1;
+  gap: 0;
+}
+
+/* === SECTIONS INGRÉDIENTS & INSTRUCTIONS === */
+.ingredients {
+  border-right: var(--border-width-separator) solid var(--color-primary-blue);
+}
+
+.ingredients h2, 
+.instructions h2 {
+  color: var(--color-secondary-blue);
+  margin-top: 0;
+  border-bottom: 1px solid var(--color-primary-blue);
+}
+
+/* === LISTES === */
+.ingredients ul {
+  list-style-type: disc;
+  margin: 0;
+}
+
+.instructions ol {
+  margin: 0;
+}
+
+/* === ÉLÉMENTS COMMUNS === */
+.ingredients li,
+.instructions li {
+  position: relative;
+}
+
+/* Style pour les abréviations */
+.abbr {
+  font-size: var(--font-size-abbr);
+  color: var(--color-text-gray);
+}
