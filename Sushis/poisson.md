@@ -6,7 +6,7 @@ En France, et plus globalement en Europe, la commercialisation de poisson cru es
 Il fait partie d'un corpus de textes de lois qui composent la [réglementation sur l'hygiène des aliments](https://agriculture.gouv.fr/la-reglementation-sur-lhygiene-des-aliments).
 
 Les points les plus intéressants sont les suivants : 
-* Un poisson destiné à être mangé cru doit être congelés complétement à un maximum de -20°C pendant au moins 24h. 
+* Un poisson destiné à être mangé cru doit être congelé complétement à un maximum de -20°C pendant au moins 24h. 
 * Si le poisson est éviscéré à bord, il doit l'être le plus rapidement possible après la capture, et les viscères doivent être conservés à l'écart. 
 
 Cela permet de tuer les [parasites](https://agriculture.gouv.fr/le-parasitisme-des-produits-de-la-peche-quest-ce-que-cest) éventuellement contenus dans les poissons sauvages. 
@@ -29,7 +29,8 @@ On peut préparer un saumon acheté en barquette de grande surface pour le rendr
 La plupart des saumons achetés en supermarchés sont congelés, souvent directement sur le bateau de pêche, ce qui éclate les cellules de la chair, et absorbe de l'eau. 
 Lorsqu'elle décongèle, la chair est alors gorgée d'eau.
 
-Le principe est d'utiliser l'effet d'osmose de l'eau, qui consiste à faire ressortir cette eau du poisson en le salant. Ainsi, on concentre les saveurs du poisson. 
+Le principe est d'utiliser l'effet d'osmose de l'eau, qui consiste à faire ressortir cette eau du poisson en le salant. 
+Ainsi, on concentre les saveurs du poisson. 
 Ce traitement est appelé Shiojime.
 En plus, le sel aide à tuer les bactéries éventuellement présentes.
 
