@@ -36,6 +36,7 @@
   --font-size-section-compact: 14px; /* Sections recette longue */
   --font-size-text-normal: 12px;     /* Texte recette courte */
   --font-size-text-compact: 11px;    /* Texte recette longue */
+  --font-size-text-small: 10px;      /* Texte petit pour notes */
   --font-size-number: 11px;          /* Numéros dans cercles */
   --font-size-abbr: 10px;            /* Abréviations */
   
@@ -49,6 +50,7 @@
   
   /* === ÉLÉMENTS UI === */
   --border-radius-container: 5px;
+  --border-radius-small: 3px;
   --border-radius-circle: 50%;
   --border-width-separator: 2px;
   --circle-size-normal: 20px;        /* Cercles numérotés */

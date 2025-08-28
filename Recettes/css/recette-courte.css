@@ -88,3 +88,21 @@
   font-size: var(--font-size-number);
   box-shadow: var(--shadow-circle);
 }
+
+/* === SOUS-LISTES À PUCES DANS LES INSTRUCTIONS === */
+.instructions ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+.instructions ul li {
+  padding-left: 0;
+  counter-increment: none;
+  margin-bottom: var(--spacing-xs);
+}
+
+.instructions ul li:before {
+  display: none;
+}

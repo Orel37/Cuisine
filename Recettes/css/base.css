@@ -93,3 +93,21 @@ body {
   font-size: var(--font-size-abbr);
   color: var(--color-text-gray);
 }
+
+/* Style pour les notes */
+.note {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-sm);
+  background-color: var(--color-background-light);
+  border-left: 3px solid var(--color-secondary-blue);
+  border-radius: var(--border-radius-small);
+  font-size: var(--font-size-text-small);
+  line-height: var(--line-height-compact);
+  color: var(--color-text-gray);
+  font-style: italic;
+}
+
+.note strong {
+  color: var(--color-secondary-blue);
+  font-style: normal;
+}
