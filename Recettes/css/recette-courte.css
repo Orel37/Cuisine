@@ -39,10 +39,16 @@
   padding-bottom: var(--spacing-xs);
 }
 
-.precision {
+.portions {
   font-size: var(--font-size-section-compact);
   margin-top: var(--spacing-md);
   margin-bottom: var(--spacing-md);
+}
+
+.precision {
+  font-size: var(--font-size-text-compact);
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
 }
 
 /* === LISTES === */

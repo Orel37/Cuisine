@@ -72,6 +72,14 @@ body {
   border-bottom: 1px solid var(--color-primary-blue);
 }
 
+.portions {
+  margin-left: var(--spacing-xl);
+}
+
+.precision {
+  font-weight: bold;
+}
+
 /* === LISTES === */
 .ingredients ul {
   list-style-type: disc;
