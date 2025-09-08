@@ -3,7 +3,6 @@ Categories de recettes :
 
 Asiatique
 	Ramen
-	Boeuf oignons
 	Bao zi
 	Jiao zi
 		porc chou chinois
@@ -14,18 +13,17 @@ Asiatique
 		La vidéo la plus importante:
 		https://www.youtube.com/watch?v=4u7bBMSIhQ0&list=WL&index=23&t=734s
 
-Maison
-	Rapes PDT
-	patés lorrains
+Lorraine
 	patés Maman
 	Quiche lorraine
 
 
 Italien
-	gnocchis PDT avec sauce tomate
+	Sauce tomate traditionnelle
 	Ragu al bolognese
 	Cassatelle a spiga https://www.youtube.com/watch?v=NJo3gvYaqA4&list=PLRRKgjlNvR9RvbNwX3cWfY3BaXCl1HTjk&index=4
 	Fregola https://www.youtube.com/watch?v=xDdzsd-2cPM&list=PLRRKgjlNvR9RvbNwX3cWfY3BaXCl1HTjk&index=2
+
 Végétarienne
 Desserts
 Petits Dejeuner
@@ -39,28 +37,18 @@ Petits Dejeuner
 
 	250g boeuf haché 5% MG
 	500g farce à légume
-	Pour la pâte:
-	Travailler la texture de la viande 
 
-
-
- - Quiche Lorraine
 
  - Poulet au four : 
  	220 degres, laisser 1/4 heure par cuisse sur chaque cuisse puisque c'est les plus longs à cuire. 
- 	Baisser le four à 180, puis le remettre sur le dos et laisser cuire pendant 45min à une heure selon la taille. Au meme moment, ajouter oignons, patates et ail en chemise 
-
- - Nouilles chinoises
- 	 130g farine
- 	 1 oeuf + completer liquide jusque 65g. 
- 	 1/2 cc sel
- 	 laisser reposer 20 à 30 min
-
- - Petits pâtés de Maman
-
- - Râpés de pomme de terre
-
-Gnocchis de pomme de terre
+ 	Baisser le four à 180, puis le remettre sur le dos et laisser cuire pendant 45min à une heure selon la taille. 
+	Au meme moment, ajouter oignons, patates et ail en chemise 
 
 Recettes végétariennes
  Bao zi
+
+ Humous haricots blancs pois chiches
+
+Frites de patate douce au four
+
+Boulettes/galettes de céréales au four
