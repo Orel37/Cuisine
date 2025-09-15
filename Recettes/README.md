@@ -140,23 +140,23 @@ Placez votre nouvelle recette dans le bon dossier :
 Les templates incluent des commentaires avec des abréviations courantes à copier-coller :
 
 **Pour les ingrédients :**
-- `<span class="abbr">c. à c.</span>` = cuillère à café
-- `<span class="abbr">c. à s.</span>` = cuillère à soupe  
-- `<span class="abbr">g</span>`, `<span class="abbr">ml</span>`, `<span class="abbr">cl</span>`, `<span class="abbr">l</span>`, `<span class="abbr">kg</span>` = unités de mesure
-- `<span class="abbr">env.</span>` = environ
+- `<span class="mesure">c. à c.</span>` = cuillère à café
+- `<span class="mesure">c. à s.</span>` = cuillère à soupe  
+- `<span class="mesure">g</span>`, `<span class="mesure">ml</span>`, `<span class="mesure">cl</span>`, `<span class="mesure">l</span>`, `<span class="mesure">kg</span>` = unités de mesure
+- `<span class="mesure">env.</span>` = environ
 
 **Pour les instructions :**
-- `<span class="abbr">min</span>` = minutes
-- `<span class="abbr">h</span>` = heures
-- `<span class="abbr">°C</span>` = degrés Celsius
+- `<span class="mesure">min</span>` = minutes
+- `<span class="mesure">h</span>` = heures
+- `<span class="mesure">°C</span>` = degrés Celsius
 
 **Exemples d'utilisation :**
 ```html
-<li>250<span class="abbr">g</span> de farine</li>
-<li>Cuire 20 <span class="abbr">min</span> à 180<span class="abbr">°C</span></li>
+<li><span class="mesure">250 g</span> de farine</li>
+<li>Cuire <span class="mesure">20 min</span> à <span class="mesure">180°C</span></li>
 ```
 
-> **Note** : La classe `abbr` affiche les abréviations en police plus petite et grise pour une meilleure lisibilité. Les abréviations sont dans les commentaires HTML (invisibles à l'impression) pour un copier-coller rapide.
+> **Note** : La classe `mesure` affiche les mesures en police plus petite et grise pour une meilleure lisibilité. 
 
 ## Personnalisation
 

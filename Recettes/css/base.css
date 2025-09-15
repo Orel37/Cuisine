@@ -96,8 +96,8 @@ body {
   position: relative;
 }
 
-/* Style pour les abréviations */
-.abbr {
+/* Style pour les mesures */
+.mesure {
   font-size: var(--font-size-abbr);
   color: var(--color-text-gray);
 }
