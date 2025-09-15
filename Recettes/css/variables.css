@@ -8,6 +8,37 @@
   --color-text-gray: #666;           /* Texte gris pour abréviations */
   --color-background-light: #f8fcff; /* Arrière-plan très léger */
   
+  /* Nouvelles couleurs pour l'accueil moderne */
+  --color-primary: #2c3e50;          /* Couleur principale sombre */
+  --color-secondary: #34495e;        /* Couleur secondaire */
+  --color-accent: #e8f4f8;           /* Couleur d'accent claire */
+  --color-text: #2c3e50;             /* Couleur du texte principal */
+  --color-text-light: #7f8c8d;       /* Couleur du texte clair */
+  --color-text-muted: rgba(44,62,80,0.6); /* Couleur du texte en sourdine */
+  --color-border: #ecf0f1;           /* Couleur des bordures */
+  --color-border-light: #bdc3c7;     /* Couleur des bordures claires */
+  --color-background-hover: #f8f9fa; /* Couleur de survol */
+  --color-background-section: var(--color-white); /* Couleur de fond des sections */
+  
+  /* Couleurs pour les cuisines */
+  --color-cuisine-asian: #e74c3c;    /* Rouge pour cuisine asiatique */
+  --color-cuisine-french: #3498db;   /* Bleu pour cuisine française */
+  --color-cuisine-italian: #27ae60;  /* Vert pour cuisine italienne */
+  --color-cuisine-regional: #f39c12; /* Orange pour cuisine régionale */
+  --color-cuisine-american: #9b59b6; /* Violet pour cuisine américaine */
+  
+  /* Couleurs avec transparence */
+  --color-white-transparent-95: rgba(255,255,255,0.95);
+  --color-white-transparent-80: rgba(255,255,255,0.8);
+  --color-text-transparent-60: rgba(44,62,80,0.6);
+  --color-text-transparent-10: rgba(44,62,80,0.1);
+  --color-black-transparent-20: rgba(0,0,0,0.2);
+  --color-black-transparent-30: rgba(0,0,0,0.3);
+  
+  /* Couleurs pour les barres de défilement */
+  --color-scrollbar-track: #f1f1f1;
+  --color-scrollbar-thumb: var(--color-primary-blue);
+  
   /* === DIMENSIONS PAGE === */
   --page-width: 210mm;               /* A5 largeur */
   --page-height: 148mm;              /* A5 hauteur */
@@ -60,8 +91,20 @@
   
   /* === VARIABLES ÉCRAN === */
   /* Couleurs adaptées pour l'écran */
+  --screen-color-primary: var(--color-primary-blue);
+  --screen-color-secondary: var(--color-secondary-blue);
+  --screen-color-white: var(--color-white);
+  --screen-color-text: var(--color-text);
+  --screen-color-text-light: var(--color-text-light);
+  --screen-color-text-muted: var(--color-text-muted);
+  --screen-color-background: var(--color-primary-blue);
+  --screen-color-background-light: var(--color-background-light);
+  --screen-color-background-section: var(--color-background-section);
+  --screen-color-background-hover: var(--color-background-hover);
   --screen-color-accent: #e8f4f8;
   --screen-color-shadow: rgba(82, 171, 206, 0.15);
+  --screen-color-border: var(--color-border);
+  --screen-color-border-light: var(--color-border-light);
   
   /* Espacements écran */
   --screen-spacing-xs: 8px;

@@ -1,0 +1,392 @@
+/* ===== STYLE MODERNE POUR PAGE D'ACCUEIL ===== */
+
+/* Import des variables existantes */
+@import url('variables.css');
+
+/* Reset et base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: var(--screen-spacing-md);
+  font-family: var(--font-family-base);
+  background: linear-gradient(135deg, var(--screen-color-background) 0%, var(--color-white) 100%);
+  color: var(--screen-color-text);
+  line-height: var(--screen-line-height);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--screen-spacing-lg);
+}
+
+/* === EN-TÊTE PRINCIPAL === */
+.main-header {
+  text-align: center;
+  margin-bottom: var(--screen-spacing-xxl);
+  padding: var(--screen-spacing-xl);
+  background: linear-gradient(135deg, var(--screen-color-primary) 0%, var(--screen-color-secondary) 100%);
+  color: var(--color-white);
+  border-radius: var(--screen-border-radius);
+  box-shadow: var(--screen-shadow-medium);
+}
+
+.title {
+  font-family: var(--font-family-title);
+  font-size: 3rem;
+  margin: 0 0 var(--screen-spacing-md) 0;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px var(--color-black-transparent-30);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 0 0 var(--screen-spacing-lg) 0;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* === BARRE DE RECHERCHE === */
+.search-container {
+  max-width: 500px;
+  margin: 0 auto var(--screen-spacing-lg) auto;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: var(--screen-spacing-md) var(--screen-spacing-lg);
+  font-size: 1.1rem;
+  border: 3px solid var(--color-white-transparent-80);
+  border-radius: 25px;
+  background: var(--color-white-transparent-95);
+  color: var(--color-primary);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--color-black-transparent-20);
+}
+
+.search-input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-white);
+  background: var(--color-white);
+  box-shadow: 0 8px 25px var(--color-black-transparent-30);
+  transform: translateY(-2px);
+}
+
+.search-clear {
+  position: absolute;
+  right: var(--screen-spacing-md);
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: var(--screen-spacing-xs);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.search-clear:hover {
+  background: var(--color-text-transparent-10);
+  color: var(--color-primary);
+}
+
+/* === STATISTIQUES === */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--screen-spacing-xl);
+  margin-top: var(--screen-spacing-lg);
+}
+
+.stat-item {
+  text-align: center;
+  color: var(--color-white);
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: var(--screen-spacing-xs);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+/* === GRILLE DES CUISINES === */
+.cuisine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--screen-spacing-xl);
+  margin-bottom: var(--screen-spacing-xxl);
+}
+
+.cuisine-card {
+  background: var(--screen-color-background-section);
+  border-radius: var(--screen-border-radius);
+  box-shadow: var(--screen-shadow-light);
+  border-left: 5px solid var(--screen-color-primary);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+}
+
+.cuisine-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--screen-shadow-heavy);
+}
+
+/* Couleurs spécifiques par cuisine */
+.cuisine-card.asian {
+  border-left-color: var(--color-cuisine-asian);
+}
+
+.cuisine-card.french {
+  border-left-color: var(--color-cuisine-french);
+}
+
+.cuisine-card.italian {
+  border-left-color: var(--color-cuisine-italian);
+}
+
+.cuisine-card.regional {
+  border-left-color: var(--color-cuisine-regional);
+}
+
+.cuisine-card.american {
+  border-left-color: var(--color-cuisine-american);
+}
+
+.card-header {
+  padding: var(--screen-spacing-lg);
+  background: linear-gradient(135deg, var(--screen-color-accent), var(--color-white));
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--screen-color-text);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: var(--screen-spacing-sm);
+}
+
+.cuisine-icon {
+  font-size: 1.8rem;
+}
+
+.card-content {
+  padding: var(--screen-spacing-lg);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-style: italic;
+  color: var(--screen-color-text-light);
+  margin: 0 0 var(--screen-spacing-lg) 0;
+  font-size: 1.1rem;
+}
+
+.recipe-categories {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: 400px;
+  padding-right: var(--screen-spacing-xs);
+}
+
+.recipe-categories::-webkit-scrollbar {
+  width: 6px;
+}
+
+.recipe-categories::-webkit-scrollbar-track {
+  background: var(--color-scrollbar-track);
+  border-radius: 3px;
+}
+
+.recipe-categories::-webkit-scrollbar-thumb {
+  background: var(--screen-color-primary);
+  border-radius: 3px;
+}
+
+.recipe-categories::-webkit-scrollbar-thumb:hover {
+  background: var(--screen-color-secondary);
+}
+
+.category {
+  margin-bottom: var(--screen-spacing-lg);
+}
+
+.category h3 {
+  font-size: 1.1rem;
+  color: var(--screen-color-secondary);
+  margin: 0 0 var(--screen-spacing-sm) 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: sticky;
+  top: 0;
+  background: var(--screen-color-white);
+  padding: var(--screen-spacing-xs) 0;
+  border-bottom: 2px solid var(--screen-color-accent);
+}
+
+.category ul {
+  margin: 0;
+  padding-left: var(--screen-spacing-xl);
+  list-style: none;
+  display: grid;
+  gap: var(--screen-spacing-xs);
+}
+
+.category li {
+  position: relative;
+  transition: background-color 0.2s ease;
+  padding: var(--screen-spacing-xs) var(--screen-spacing-xs) var(--screen-spacing-xs) var(--screen-spacing-lg);
+  border-radius: 4px;
+}
+
+.category li:hover {
+  background-color: var(--screen-color-accent);
+}
+
+.category li::before {
+  content: '▸';
+  color: var(--screen-color-primary);
+  font-weight: bold;
+  position: absolute;
+  left: var(--screen-spacing-sm);
+  top: var(--screen-spacing-xs);
+  width: var(--screen-spacing-md);
+}
+
+.category a {
+  color: var(--screen-color-text);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  display: block;
+  padding: 2px 0;
+}
+
+.category a:hover {
+  color: var(--screen-color-primary);
+  text-decoration: underline;
+}
+
+/* Compteur de recettes */
+.recipe-count {
+  background: var(--screen-color-primary);
+  color: var(--color-white);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: var(--screen-spacing-xs);
+}
+
+/* === PIED DE PAGE === */
+.main-footer {
+  margin-top: var(--screen-spacing-xxl);
+  padding: var(--screen-spacing-xl);
+  text-align: center;
+  background: var(--screen-color-background-section);
+  border-radius: var(--screen-border-radius);
+  box-shadow: var(--screen-shadow-light);
+}
+
+.footer-content p {
+  margin: 0 0 var(--screen-spacing-xs) 0;
+  color: var(--screen-color-text);
+}
+
+.note {
+  font-size: 0.9rem;
+  color: var(--screen-color-text-light);
+  font-style: italic;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  body {
+    padding: var(--screen-spacing-sm);
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .cuisine-grid {
+    grid-template-columns: 1fr;
+    gap: var(--screen-spacing-lg);
+  }
+  
+  .cuisine-card {
+    height: auto;
+    min-height: 400px;
+  }
+  
+  .recipe-categories {
+    max-height: 250px;
+  }
+  
+  .stats {
+    gap: var(--screen-spacing-lg);
+  }
+  
+  .stat-number {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-header {
+    padding: var(--screen-spacing-lg);
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .search-input {
+    font-size: 1rem;
+    padding: var(--screen-spacing-sm) var(--screen-spacing-md);
+  }
+  
+  .cuisine-card {
+    min-height: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .recipe-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--screen-spacing-lg);
+  }
+}

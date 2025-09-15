@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes Recettes de Cuisine</title>
+  <link rel="stylesheet" href="css/accueil-moderne.css" media="screen">
+  <link rel="stylesheet" href="css/impression-accueil.css" media="print">
+</head>
+<body>
+  <div class="container">
+    <!-- En-tête principal -->
+    <header class="main-header">
+      <h1 class="title">🍽️ Mes Recettes de Cuisine</h1>
+      <p class="subtitle">Une collection personnelle de saveurs du monde entier</p>
+      
+      <!-- Barre de recherche -->
+      <div class="search-container">
+        <input type="text" id="recipe-search" placeholder="Rechercher une recette..." class="search-input">
+        <button type="button" class="search-clear" onclick="clearSearch()">✕</button>
+      </div>
+      
+      <!-- Statistiques -->
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-number" id="total-recipes">18</span>
+          <span class="stat-label">Recettes</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">5</span>
+          <span class="stat-label">Cuisines</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation principale par cuisine -->
+    <main class="cuisine-grid">
+      <section class="cuisine-card asian">
+        <div class="card-header">
+          <span class="cuisine-icon">🥢</span>
+          <h2>Cuisine Asiatique<span class="recipe-count">7</span></h2>
+        </div>
+        <div class="card-content">
+          <p class="description">Saveurs authentiques d'Asie : épices, fraîcheur et équilibre</p>
+          <div class="recipe-categories">
+            <div class="category">
+              <h3>Entrées</h3>
+              <ul>
+                <li><a href="asiatique/entrees/nems-porc.html">Nems de Porc</a></li>
+                <li><a href="asiatique/entrees/samoussas-boeuf.html">Samoussas au Bœuf</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Plats</h3>
+              <ul>
+                <li><a href="asiatique/plats/boeuf-oignons.html">Bœuf aux Oignons</a></li>
+                <li><a href="asiatique/plats/porc-char-siu.html">Porc Char Siu</a></li>
+                <li><a href="asiatique/plats/brocolis-sautes.html">Brocolis Sautés</a></li>
+                <li><a href="asiatique/plats/dahl-lentilles-corail.html">Dahl de Lentilles Corail</a></li>
+                <li><a href="asiatique/plats/raviolis-chinois.html">Raviolis Chinois</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cuisine-card french">
+        <div class="card-header">
+          <span class="cuisine-icon">🇫🇷</span>
+          <h2>Cuisine Française<span class="recipe-count">3</span></h2>
+        </div>
+        <div class="card-content">
+          <p class="description">Tradition et savoir-faire de la gastronomie française</p>
+          <div class="recipe-categories">
+            <div class="category">
+              <h3>Entrées</h3>
+              <ul>
+                <li><a href="francais/entrees/caviar-aubergine.html">Caviar d'Aubergine</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Plats</h3>
+              <ul>
+                <li><a href="francais/plats/blanquette.html">Blanquette de Veau</a></li>
+                <li><a href="francais/plats/pain-levain.html">Pain au Levain</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cuisine-card italian">
+        <div class="card-header">
+          <span class="cuisine-icon">🇮🇹</span>
+          <h2>Cuisine Italienne<span class="recipe-count">3</span></h2>
+        </div>
+        <div class="card-content">
+          <p class="description">L'art de la simplicité et des produits de qualité</p>
+          <div class="recipe-categories">
+            <div class="category">
+              <h3>Plats</h3>
+              <ul>
+                <li><a href="italien/plats/carbonara.html">Carbonara</a></li>
+                <li><a href="italien/plats/gnocchis.html">Gnocchis</a></li>
+                <li><a href="italien/plats/spaghettis-boulettes.html">Spaghettis aux Boulettes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cuisine-card lorraine">
+        <div class="card-header">
+          <span class="cuisine-icon">🥧</span>
+          <h2>Cuisine Lorraine<span class="recipe-count">4</span></h2>
+        </div>
+        <div class="card-content">
+          <p class="description">Terroir et spécialités traditionnelles de Lorraine</p>
+          <div class="recipe-categories">
+            <div class="category">
+              <h3>Plats</h3>
+              <ul>
+                <li><a href="lorraine/plats/tourte-morilles.html">Tourte aux Morilles</a></li>
+                <li><a href="lorraine/plats/pate-lorrain.html">Pâté Lorrain</a></li>
+                <li><a href="lorraine/plats/rapes-pommes-de-terre.html">Râpés de Pommes de Terre</a></li>
+              </ul>
+            </div>
+            <div class="category">
+              <h3>Desserts</h3>
+              <ul>
+                <li><a href="lorraine/desserts/crepes.html">Crêpes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cuisine-card american">
+        <div class="card-header">
+          <span class="cuisine-icon">🇺🇸</span>
+          <h2>Cuisine Américaine<span class="recipe-count">1</span></h2>
+        </div>
+        <div class="card-content">
+          <p class="description">Comfort food et spécialités américaines généreuses</p>
+          <div class="recipe-categories">
+            <div class="category">
+              <h3>Apéritifs</h3>
+              <ul>
+                <li><a href="americain/apero/nachos-boeuf.html">Nachos au Bœuf</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p>🍴 Collection personnelle de recettes</p>
+        <p class="note">Format optimisé pour impression A5 paysage</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Fonction de recherche
+    function searchRecipes() {
+      const searchTerm = document.getElementById('recipe-search').value.toLowerCase();
+      const cuisineCards = document.querySelectorAll('.cuisine-card');
+      let visibleCount = 0;
+      
+      if (searchTerm === '') {
+        // Afficher tous les éléments si la recherche est vide
+        cuisineCards.forEach(card => {
+          card.style.display = 'block';
+          const categories = card.querySelectorAll('.category');
+          categories.forEach(category => {
+            category.style.display = 'block';
+            const items = category.querySelectorAll('li');
+            items.forEach(item => {
+              item.style.display = 'list-item';
+              visibleCount++;
+            });
+          });
+        });
+      } else {
+        // Filtrer selon le terme de recherche
+        cuisineCards.forEach(card => {
+          let cardHasVisibleRecipes = false;
+          const categories = card.querySelectorAll('.category');
+          
+          categories.forEach(category => {
+            let categoryHasVisibleRecipes = false;
+            const items = category.querySelectorAll('li');
+            
+            items.forEach(item => {
+              const link = item.querySelector('a');
+              const recipeName = link.textContent.toLowerCase();
+              
+              if (recipeName.includes(searchTerm)) {
+                item.style.display = 'list-item';
+                categoryHasVisibleRecipes = true;
+                cardHasVisibleRecipes = true;
+                visibleCount++;
+              } else {
+                item.style.display = 'none';
+              }
+            });
+            
+            // Masquer la catégorie si aucune recette visible
+            category.style.display = categoryHasVisibleRecipes ? 'block' : 'none';
+          });
+          
+          // Masquer la carte de cuisine si aucune recette visible
+          card.style.display = cardHasVisibleRecipes ? 'block' : 'none';
+        });
+      }
+      
+      // Mettre à jour le compteur
+      document.getElementById('total-recipes').textContent = visibleCount;
+    }
+    
+    function clearSearch() {
+      document.getElementById('recipe-search').value = '';
+      const cuisineCards = document.querySelectorAll('.cuisine-card');
+      let totalCount = 0;
+      
+      cuisineCards.forEach(card => {
+        card.style.display = 'block';
+        const categories = card.querySelectorAll('.category');
+        categories.forEach(category => {
+          category.style.display = 'block';
+          const items = category.querySelectorAll('li');
+          items.forEach(item => {
+            item.style.display = 'list-item';
+            totalCount++;
+          });
+        });
+      });
+      
+      document.getElementById('total-recipes').textContent = totalCount;
+    }
+    
+    // Initialisation au chargement du DOM
+    document.addEventListener('DOMContentLoaded', function() {
+      // Écouter les changements dans la barre de recherche
+      document.getElementById('recipe-search').addEventListener('input', searchRecipes);
+      
+      // Animation d'apparition au chargement
+      const cards = document.querySelectorAll('.cuisine-card');
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(20px)';
+          card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+          requestAnimationFrame(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+          });
+        }, index * 150);
+      });
+    });
+  </script>
+</body>
+</html>
