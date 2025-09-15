@@ -99,7 +99,8 @@ body {
 /* Style pour les mesures */
 .mesure {
   font-size: var(--font-size-abbr);
-  color: var(--color-text-gray);
+  color: var(--color-secondary-blue);
+  font-weight: bold;
 }
 
 /* Style pour les notes */
