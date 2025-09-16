@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mes Recettes de Cuisine</title>
   <link rel="stylesheet" href="css/accueil-moderne.css" media="screen">
-  <link rel="stylesheet" href="css/impression-accueil.css" media="print">
 </head>
 <body>
   <div class="container">
@@ -29,6 +28,10 @@
         <div class="stat-item">
           <span class="stat-number">5</span>
           <span class="stat-label">Cuisines</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">1</span>
+          <span class="stat-label">Fiche</span>
         </div>
       </div>
     </header>
@@ -171,6 +174,55 @@
         </div>
       </section>
     </main>
+
+    <!-- Section Fiches Pratiques -->
+    <section class="fiches-section">
+      <div class="fiches-header">
+        <h2>📋 Fiches Pratiques</h2>
+        <p class="fiches-description">Guides de référence et conseils techniques pour la cuisine</p>
+      </div>
+      
+      <div class="fiches-grid">
+        <div class="fiche-card">
+          <div class="fiche-icon">🫘</div>
+          <div class="fiche-content">
+            <h3>Guide des Légumineuses</h3>
+            <p>Temps de cuisson, trempage et conseils pour toutes les légumineuses</p>
+            <div class="fiche-tags">
+              <span class="tag">Cuisson</span>
+              <span class="tag">Trempage</span>
+              <span class="tag">Ratios</span>
+            </div>
+            <a href="fiches/cuissons/legumineuses.html" class="fiche-link">Consulter la fiche</a>
+          </div>
+        </div>
+        
+        <!-- Placeholder pour futures fiches -->
+        <div class="fiche-card coming-soon">
+          <div class="fiche-icon">🍝</div>
+          <div class="fiche-content">
+            <h3>Pâtes Fraîches</h3>
+            <p>Types, découpes et techniques de préparation</p>
+            <div class="fiche-tags">
+              <span class="tag">À venir</span>
+            </div>
+            <span class="fiche-link disabled">Bientôt disponible</span>
+          </div>
+        </div>
+        
+        <div class="fiche-card coming-soon">
+          <div class="fiche-icon">🥩</div>
+          <div class="fiche-content">
+            <h3>Cuisson des viandes</h3>
+            <p>Comment bien cuire une viande</p>
+            <div class="fiche-tags">
+              <span class="tag">À venir</span>
+            </div>
+            <span class="fiche-link disabled">Bientôt disponible</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Pied de page -->
     <footer class="main-footer">
