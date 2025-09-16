@@ -101,6 +101,7 @@ body {
   font-size: var(--font-size-abbr);
   color: var(--color-secondary-blue);
   font-weight: bold;
+  white-space: nowrap; /* Evite les retours à la ligne*/
 }
 
 /* Style pour les notes */

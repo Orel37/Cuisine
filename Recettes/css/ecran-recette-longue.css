@@ -199,6 +199,7 @@ body {
   font-size: var(--screen-font-size-small);
   font-weight: 600;
   margin: 0 2px;
+  white-space: nowrap; /* Evite les retours à la ligne*/
 }
 
 /* Responsive Design */
