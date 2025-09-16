@@ -1,0 +1,288 @@
+/* ===== FICHE TABLEAU - STYLES D'IMPRESSION ===== */
+
+/* Import des dépendances */
+@import url('fonts.css');
+@import url('variables.css');
+
+/* === CONFIGURATION PAGE === */
+@page {
+  size: A5 landscape;
+  margin: 0;
+}
+
+/* === GESTION DES SAUTS DE PAGE === */
+@page :first {
+  margin: 0;
+}
+
+/* === IMPRESSION - FORCE LES COULEURS === */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .fiche-content {
+    padding-top: 0;
+  }
+  
+  .fiche-header {
+    background: var(--color-primary-blue) !important;
+    color: var(--color-white) !important;
+  }
+  
+  .legumineuses-table thead {
+    background: var(--color-primary-blue) !important;
+    color: var(--color-white) !important;
+  }
+  
+  /* Répéter l'en-tête du tableau sur chaque page */
+  .legumineuses-table thead {
+    display: table-header-group;
+  }
+  
+  .legumineuses-table tbody {
+    display: table-row-group;
+  }
+  
+  /* Éviter les coupures indésirables */
+  .fiche-header {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  
+  .intro-text {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  
+  /* Tableau : permettre les sauts de page mais éviter de couper les lignes */
+  .legumineuses-table {
+    page-break-inside: auto;
+  }
+  
+  .legumineuses-table thead {
+    page-break-after: avoid;
+  }
+  
+  .legumineuses-table tbody tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+  
+  /* Les notes peuvent passer sur une nouvelle page si nécessaire */
+  .notes {
+    page-break-before: auto;
+    page-break-inside: auto;
+  }
+  
+  .notes h3 {
+    page-break-after: avoid;
+  }
+  
+  /* Si les notes commencent sur une nouvelle page, refaire un header simplifié */
+  .notes {
+    orphans: 3;
+    widows: 3;
+  }
+}
+
+/* === STRUCTURE PRINCIPALE === */
+body {
+  width: var(--page-width);
+  height: auto; /* Permet le débordement sur plusieurs pages */
+  margin: 0;
+  padding: 0 var(--margin-horizontal);
+  font-family: var(--font-family-base);
+  background: var(--color-white);
+  box-sizing: border-box;
+  display: block; /* Changé de flex pour permettre le flux normal */
+}
+
+.fiche-container {
+  width: var(--container-width);
+  height: auto; /* Permet le débordement */
+  display: block; /* Changé de flex pour permettre le flux normal */
+  box-shadow: var(--shadow-container);
+  border-radius: var(--border-radius-container);
+  overflow: visible; /* Permet le débordement */
+}
+
+/* === TITRE === */
+.fiche-header {
+  background: var(--color-primary-blue);
+  color: var(--color-white);
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--font-family-title);
+  text-shadow: var(--text-shadow);
+  padding: var(--spacing-md) var(--spacing-xl);
+}
+
+.fiche-title {
+  font-size: var(--font-size-title-compact);
+  margin: 0;
+}
+
+.fiche-subtitle {
+  font-size: var(--font-size-text-small);
+  margin: var(--spacing-xs) 0 0 0;
+  opacity: 0.9;
+}
+
+/* === CONTENU PRINCIPAL === */
+.fiche-content {
+  padding: var(--spacing-md);
+}
+
+/* === INTRO === */
+.intro-text {
+  font-size: var(--font-size-text-small);
+  margin-bottom: var(--spacing-md);
+  font-weight: bold;
+  border-left: var(--border-width-separator) solid var(--color-primary-blue);
+  padding-left: var(--spacing-md);
+}
+
+.intro-text p {
+  margin: 0 0 var(--spacing-xs) 0;
+}
+
+.intro-text p:last-child {
+  margin: 0;
+}
+
+/* === TABLEAU === */
+.legumineuses-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-text-compact);
+  line-height: var(--line-height-tight);
+}
+
+.legumineuses-table thead {
+  background: var(--color-primary-blue);
+  color: var(--color-white);
+}
+
+.legumineuses-table th {
+  padding: var(--spacing-sm) var(--spacing-xs);
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--font-size-text-compact);
+  border: 1px solid var(--color-white);
+}
+
+.legumineuses-table td {
+  padding: var(--spacing-xs) var(--spacing-xs);
+  border: 1px solid var(--color-border-light);
+  vertical-align: top;
+  font-size: var(--font-size-text-compact);
+  line-height: var(--line-height-compact);
+}
+
+.legumineuses-table tbody tr:nth-child(even) {
+  background: var(--color-background-light);
+}
+
+/* === COLONNES SPÉCIFIQUES === */
+.legume-name {
+  font-weight: bold;
+  color: var(--color-secondary-blue);
+  width: 18%;
+}
+
+.temps-cuisson,
+.ratio {
+  text-align: center;
+  font-weight: bold;
+  width: 12%;
+}
+
+.materiel,
+.trempage {
+  text-align: center;
+  width: 12%;
+}
+
+.commentaires {
+  width: 34%;
+  font-size: var(--font-size-text-small);
+  line-height: var(--line-height-compact);
+}
+
+/* === BADGES === */
+.badge {
+  background: var(--color-primary-blue);
+  color: var(--color-white);
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-size: var(--font-size-text-small);
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.badge-autocuiseur {
+  background: var(--color-secondary-blue);
+}
+
+/* === ICÔNES === */
+.temps-icon::before {
+  content: "⏱";
+  margin-right: 2px;
+}
+
+.trempage-icon::before {
+  content: "💧";
+  margin-right: 2px;
+}
+
+/* === NOTES === */
+.notes {
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+  font-size: var(--font-size-text-small);
+  border-left: var(--border-width-separator) solid var(--color-primary-blue);
+  padding-left: var(--spacing-md);
+}
+
+.notes h3 {
+  color: var(--color-secondary-blue);
+  font-size: var(--font-size-section-compact);
+  margin: 0 0 var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--color-primary-blue);
+  padding-bottom: var(--spacing-xs);
+}
+
+.notes ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: var(--spacing-xl);
+}
+
+.notes li {
+  margin-bottom: var(--spacing-xs);
+  line-height: var(--line-height-compact);
+}
+
+/* === GESTION AVANCÉE DES SAUTS DE PAGE === */
+@media print {
+  /* Assurer qu'il y a assez d'espace pour au moins 3 lignes de tableau + header */
+  .legumineuses-table {
+    widows: 3;
+    orphans: 3;
+  }
+  
+  /* Si le tableau se divise, répéter le header */
+  .legumineuses-table thead th {
+    page-break-after: avoid;
+  }
+  
+  /* Éviter qu'une seule ligne soit isolée en bas ou en haut de page */
+  .legumineuses-table tbody tr {
+    widows: 2;
+    orphans: 2;
+  }
+  
+}

@@ -1,0 +1,337 @@
+/* ===== STYLE MODERNE POUR FICHES TABLEAU ===== */
+
+/* Import des variables existantes */
+@import url('variables.css');
+
+/* Reset et base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  margin: 0;
+  padding: var(--screen-spacing-compact-md);
+  font-family: var(--font-family-base);
+  background: linear-gradient(135deg, var(--color-background-light) 0%, #ffffff 100%);
+  color: var(--color-text-dark);
+  line-height: var(--screen-line-height-compact);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Container principal */
+.fiche-container {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-white);
+  border-radius: var(--screen-border-radius);
+  box-shadow: var(--screen-shadow-medium);
+  overflow: hidden;
+  margin: var(--screen-spacing-compact-lg) 0;
+}
+
+/* Titre principal - même style que les recettes */
+.fiche-header {
+  background: linear-gradient(135deg, var(--color-primary-blue), var(--color-secondary-blue));
+  color: var(--color-white);
+  padding: var(--screen-spacing-compact-xl) var(--screen-spacing-compact-lg);
+  text-align: center;
+  position: relative;
+}
+
+.fiche-title {
+  font-size: var(--screen-font-size-title-compact);
+  font-family: var(--font-family-title);
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  margin: 0 0 var(--screen-spacing-compact-sm) 0;
+}
+
+.fiche-subtitle {
+  font-size: var(--screen-font-size-text-compact);
+  opacity: 0.9;
+  font-weight: 300;
+  margin: 0;
+}
+
+.fiche-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+}
+
+/* Contenu principal */
+.fiche-content {
+  padding: var(--screen-spacing-compact-xl);
+}
+
+/* Texte d'introduction - même style que les précisions des recettes */
+.intro-text {
+  background: var(--color-white);
+  padding: var(--screen-spacing-compact-md);
+  border-radius: var(--screen-border-radius-small);
+  margin-bottom: var(--screen-spacing-compact-lg);
+  box-shadow: var(--screen-shadow-light);
+  font-weight: 500;
+  font-size: var(--screen-font-size-small-compact);
+  border-left: 4px solid var(--color-primary-blue);
+}
+
+.intro-text p {
+  margin-bottom: var(--screen-spacing-compact-sm);
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Styles du tableau - inspiré du style des recettes */
+.legumineuses-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--screen-spacing-compact-lg) 0;
+  background: var(--color-white);
+  border-radius: var(--screen-border-radius);
+  overflow: hidden;
+  box-shadow: var(--screen-shadow-medium);
+}
+
+.legumineuses-table thead {
+  background: linear-gradient(135deg, var(--color-primary-blue), var(--color-secondary-blue));
+  color: var(--color-white);
+}
+
+.legumineuses-table th {
+  padding: var(--screen-spacing-compact-lg) var(--screen-spacing-compact-md);
+  text-align: left;
+  font-weight: 600;
+  font-size: var(--screen-font-size-text-compact);
+  font-family: var(--font-family-title);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.legumineuses-table tbody tr {
+  border-bottom: 1px solid var(--color-border-light);
+  transition: background-color 0.2s ease;
+}
+
+.legumineuses-table tbody tr:hover {
+  background-color: var(--screen-color-accent);
+}
+
+.legumineuses-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.legumineuses-table td {
+  padding: var(--screen-spacing-compact-md) var(--screen-spacing-compact-md);
+  vertical-align: top;
+  font-size: var(--screen-font-size-text-compact);
+  line-height: var(--screen-line-height-compact);
+}
+
+.legumineuses-table .legume-name {
+  font-weight: 600;
+  color: var(--color-secondary-blue);
+  width: 18%;
+}
+
+.legumineuses-table .temps-cuisson {
+  width: 15%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.legumineuses-table .materiel {
+  width: 12%;
+  text-align: center;
+}
+
+.legumineuses-table .ratio {
+  width: 12%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.legumineuses-table .trempage {
+  width: 15%;
+  text-align: center;
+}
+
+.legumineuses-table .commentaires {
+  width: 28%;
+  font-size: var(--screen-font-size-small-compact);
+  line-height: var(--screen-line-height-compact);
+}
+
+/* Badges pour le matériel - style mesure des recettes */
+.badge {
+  background: var(--color-primary-blue);
+  color: var(--color-white);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: var(--screen-font-size-small);
+  font-weight: 600;
+  white-space: nowrap;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.badge-casserole {
+  background: var(--color-primary-blue);
+  color: var(--color-white);
+}
+
+.badge-autocuiseur {
+  background: var(--color-secondary-blue);
+  color: var(--color-white);
+}
+
+/* Temps avec icônes */
+.temps-icon, .trempage-icon {
+  font-weight: 500;
+}
+
+.temps-icon::before {
+  content: "⏱️";
+  margin-right: 4px;
+}
+
+.trempage-icon::before {
+  content: "💧";
+  margin-right: 4px;
+}
+
+/* Notes en bas de page - style section recette */
+.notes {
+  background: var(--color-white);
+  padding: var(--screen-spacing-compact-md);
+  border-radius: var(--screen-border-radius-small);
+  margin-top: var(--screen-spacing-compact-lg);
+  box-shadow: var(--screen-shadow-light);
+  font-weight: 500;
+  font-size: var(--screen-font-size-small-compact);
+  border-left: 4px solid var(--color-primary-blue);
+}
+
+.notes h3 {
+  color: var(--color-secondary-blue);
+  font-size: var(--screen-font-size-section-compact);
+  font-family: var(--font-family-title);
+  margin: 0 0 var(--screen-spacing-compact-lg) 0;
+  padding-bottom: var(--screen-spacing-compact-sm);
+  border-bottom: 2px solid var(--color-primary-blue);
+}
+
+.notes ul {
+  list-style: none;
+  padding-left: var(--screen-spacing-compact-lg);
+  margin: 0;
+}
+
+.notes li {
+  margin-bottom: var(--screen-spacing-compact-sm);
+  padding-left: var(--screen-spacing-compact-lg);
+  position: relative;
+  line-height: var(--screen-line-height-compact);
+}
+
+.notes li::before {
+  content: '•';
+  color: var(--color-primary-blue);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  font-size: 1.2em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: var(--screen-spacing-compact-sm);
+  }
+  
+  .fiche-container {
+    margin: var(--screen-spacing-compact-sm) 0;
+    border-radius: var(--screen-border-radius-small);
+  }
+  
+  .fiche-header {
+    padding: var(--screen-spacing-compact-lg);
+  }
+  
+  .fiche-title {
+    font-size: var(--screen-font-size-section-compact);
+  }
+  
+  .fiche-content {
+    padding: var(--screen-spacing-compact-lg);
+  }
+  
+  .legumineuses-table {
+    font-size: var(--screen-font-size-small-compact);
+  }
+  
+  .legumineuses-table th,
+  .legumineuses-table td {
+    padding: var(--screen-spacing-compact-sm);
+  }
+}
+
+@media (max-width: 600px) {
+  .legumineuses-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Impression */
+@media print {
+  body {
+    background: white;
+    color: black;
+    padding: 0;
+  }
+  
+  .fiche-container {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    margin: 0;
+  }
+  
+  .fiche-header {
+    background: #f5f5f5 !important;
+    color: black !important;
+  }
+  
+  .legumineuses-table {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+  
+  .legumineuses-table thead {
+    background: #f0f0f0 !important;
+    color: black !important;
+  }
+  
+  .badge {
+    border: 1px solid #333;
+    background: white !important;
+    color: black !important;
+  }
+}
