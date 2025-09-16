@@ -37,7 +37,7 @@ jobs:
     - name: Préparer les fichiers à publier
       run: |
         mkdir public
-        rsync -av --exclude='templates' --exclude='drafts' Recettes/ public/
+        rsync -av --exclude='templates' --exclude='drafts' site/ public/
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
