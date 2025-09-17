@@ -192,6 +192,11 @@ body {
   width: 18%;
 }
 
+/* Centrage vertical pour les cellules avec rowspan */
+.legumineuses-table td[rowspan] {
+  vertical-align: middle;
+}
+
 .temps-cuisson,
 .ratio {
   text-align: center;

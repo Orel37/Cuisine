@@ -149,6 +149,11 @@ body {
   width: 18%;
 }
 
+/* Centrage vertical pour les cellules avec rowspan */
+.legumineuses-table td[rowspan] {
+  vertical-align: middle;
+}
+
 .legumineuses-table .temps-cuisson {
   width: 15%;
   text-align: center;
@@ -198,6 +203,11 @@ body {
 
 .badge-autocuiseur {
   background: var(--color-secondary-blue);
+  color: var(--color-white);
+}
+
+.badge-vapeur {
+  background: var(--color-text-gray);
   color: var(--color-white);
 }
 
