@@ -291,3 +291,28 @@ body {
   }
   
 }
+
+/* === STYLES SPÉCIFIQUES FICHE VIANDES === */
+.animal-name {
+  font-weight: bold;
+  color: var(--color-secondary-blue);
+  width: 15%;
+  font-size: var(--font-size-text-compact);
+}
+
+.morceau-name {
+  font-weight: 500;
+  width: 25%;
+}
+
+.cuisson {
+  font-weight: bold;
+  color: var(--color-primary-blue);
+  width: 25%;
+  text-align: center;
+}
+
+/* Ajustement des largeurs pour la fiche viandes */
+.legumineuses-table .commentaires {
+  width: 35%;
+}

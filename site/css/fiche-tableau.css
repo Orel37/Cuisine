@@ -345,3 +345,72 @@ body {
     color: black !important;
   }
 }
+
+/* === STYLES SPÉCIFIQUES FICHE VIANDES === */
+.animal-name {
+  font-weight: 600;
+  color: var(--color-secondary-blue);
+  width: 15%;
+  font-size: 1.1em;
+}
+
+.morceau-name {
+  font-weight: 500;
+  width: 25%;
+}
+
+.cuisson {
+  font-weight: 600;
+  color: var(--color-primary-blue);
+  width: 25%;
+  text-align: left;
+  padding: var(--screen-spacing-compact-sm);
+}
+
+/* Styles pour les étapes de cuisson avec listes ordonnées */
+.etapes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: etape-counter;
+}
+
+.etapes li {
+  background: var(--color-background-light);
+  padding: var(--screen-spacing-compact-xs) var(--screen-spacing-compact-sm);
+  margin-bottom: var(--screen-spacing-compact-xs);
+  border-radius: var(--screen-border-radius-small);
+  border-left: 3px solid var(--color-primary-blue);
+  font-size: var(--screen-font-size-small-compact);
+  line-height: var(--screen-line-height-compact);
+  position: relative;
+  padding-left: calc(var(--screen-spacing-compact-sm) + 20px);
+  counter-increment: etape-counter;
+}
+
+.etapes li:last-child {
+  margin-bottom: 0;
+}
+
+.etapes li::before {
+  content: counter(etape-counter);
+  position: absolute;
+  left: var(--screen-spacing-compact-xs);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background: var(--color-primary-blue);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* Ajustement des largeurs pour la fiche viandes */
+.legumineuses-table .commentaires {
+  width: 35%;
+}
