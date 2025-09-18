@@ -99,7 +99,7 @@ body {
 }
 
 /* Styles du tableau - inspiré du style des recettes */
-.legumineuses-table {
+.table-aliments {
   width: 100%;
   border-collapse: collapse;
   margin: var(--screen-spacing-compact-lg) 0;
@@ -109,12 +109,12 @@ body {
   box-shadow: var(--screen-shadow-medium);
 }
 
-.legumineuses-table thead {
+.table-aliments thead {
   background: linear-gradient(135deg, var(--color-primary-blue), var(--color-secondary-blue));
   color: var(--color-white);
 }
 
-.legumineuses-table th {
+.table-aliments th {
   padding: var(--screen-spacing-compact-lg) var(--screen-spacing-compact-md);
   text-align: left;
   font-weight: 600;
@@ -123,60 +123,60 @@ body {
   text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
-.legumineuses-table tbody tr {
+.table-aliments tbody tr {
   border-bottom: 1px solid var(--color-border-light);
   transition: background-color 0.2s ease;
 }
 
-.legumineuses-table tbody tr:hover {
+.table-aliments tbody tr:hover {
   background-color: var(--screen-color-accent);
 }
 
-.legumineuses-table tbody tr:last-child {
+.table-aliments tbody tr:last-child {
   border-bottom: none;
 }
 
-.legumineuses-table td {
+.table-aliments td {
   padding: var(--screen-spacing-compact-md) var(--screen-spacing-compact-md);
   vertical-align: top;
   font-size: var(--screen-font-size-text-compact);
   line-height: var(--screen-line-height-compact);
 }
 
-.legumineuses-table .legume-name {
+.table-aliments .nom-aliment {
   font-weight: 600;
   color: var(--color-secondary-blue);
   width: 18%;
 }
 
 /* Centrage vertical pour les cellules avec rowspan */
-.legumineuses-table td[rowspan] {
+.table-aliments td[rowspan] {
   vertical-align: middle;
 }
 
-.legumineuses-table .temps-cuisson {
+.table-aliments .temps-cuisson {
   width: 15%;
   text-align: center;
   font-weight: 500;
 }
 
-.legumineuses-table .materiel {
+.table-aliments .materiel {
   width: 12%;
   text-align: center;
 }
 
-.legumineuses-table .ratio {
+.table-aliments .ratio {
   width: 12%;
   text-align: center;
   font-weight: 500;
 }
 
-.legumineuses-table .trempage {
+.table-aliments .trempage {
   width: 15%;
   text-align: center;
 }
 
-.legumineuses-table .commentaires {
+.table-aliments .commentaires {
   width: 28%;
   font-size: var(--screen-font-size-small-compact);
   line-height: var(--screen-line-height-compact);
@@ -292,18 +292,18 @@ body {
     padding: var(--screen-spacing-compact-lg);
   }
   
-  .legumineuses-table {
+  .table-aliments {
     font-size: var(--screen-font-size-small-compact);
   }
   
-  .legumineuses-table th,
-  .legumineuses-table td {
+  .table-aliments th,
+  .table-aliments td {
     padding: var(--screen-spacing-compact-sm);
   }
 }
 
 @media (max-width: 600px) {
-  .legumineuses-table {
+  .table-aliments {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
@@ -329,12 +329,12 @@ body {
     color: black !important;
   }
   
-  .legumineuses-table {
+  .table-aliments {
     box-shadow: none;
     border: 1px solid #ddd;
   }
   
-  .legumineuses-table thead {
+  .table-aliments thead {
     background: #f0f0f0 !important;
     color: black !important;
   }
@@ -411,6 +411,39 @@ body {
 }
 
 /* Ajustement des largeurs pour la fiche viandes */
-.legumineuses-table .commentaires {
+.table-aliments .commentaires {
   width: 35%;
+}
+
+/* Styles pour les sections en deux colonnes */
+.recipe-base {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--screen-spacing-compact-lg);
+  margin-bottom: var(--screen-spacing-compact-lg);
+}
+
+.recipe-base .ingredients,
+.recipe-base .technique,
+.recipe-base .notes {
+  background: var(--color-background-light);
+  padding: var(--screen-spacing-compact-md);
+  border-radius: var(--screen-border-radius-small);
+  border-left: 3px solid var(--color-primary-blue);
+}
+
+.recipe-base h4 {
+  margin-top: 0;
+  margin-bottom: var(--screen-spacing-compact-md);
+  color: var(--color-primary-blue);
+  font-size: var(--screen-font-size-subtitle-compact);
+  font-weight: 600;
+}
+
+/* Responsive : sur petits écrans, passer en colonne unique */
+@media screen and (max-width: 768px) {
+  .recipe-base {
+    grid-template-columns: 1fr;
+    gap: var(--screen-spacing-compact-md);
+  }
 }

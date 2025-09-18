@@ -31,17 +31,17 @@
     color: var(--color-white) !important;
   }
   
-  .legumineuses-table thead {
+  .table-aliments thead {
     background: var(--color-primary-blue) !important;
     color: var(--color-white) !important;
   }
   
   /* Répéter l'en-tête du tableau sur chaque page */
-  .legumineuses-table thead {
+  .table-aliments thead {
     display: table-header-group;
   }
   
-  .legumineuses-table tbody {
+  .table-aliments tbody {
     display: table-row-group;
   }
   
@@ -57,15 +57,15 @@
   }
   
   /* Tableau : permettre les sauts de page mais éviter de couper les lignes */
-  .legumineuses-table {
+  .table-aliments {
     page-break-inside: auto;
   }
   
-  .legumineuses-table thead {
+  .table-aliments thead {
     page-break-after: avoid;
   }
   
-  .legumineuses-table tbody tr {
+  .table-aliments tbody tr {
     page-break-inside: avoid;
     page-break-after: auto;
   }
@@ -153,19 +153,19 @@ body {
 }
 
 /* === TABLEAU === */
-.legumineuses-table {
+.table-aliments {
   width: 100%;
   border-collapse: collapse;
   font-size: var(--font-size-text-compact);
   line-height: var(--line-height-tight);
 }
 
-.legumineuses-table thead {
+.table-aliments thead {
   background: var(--color-primary-blue);
   color: var(--color-white);
 }
 
-.legumineuses-table th {
+.table-aliments th {
   padding: var(--spacing-sm) var(--spacing-xs);
   text-align: center;
   font-weight: bold;
@@ -173,7 +173,7 @@ body {
   border: 1px solid var(--color-white);
 }
 
-.legumineuses-table td {
+.table-aliments td {
   padding: var(--spacing-xs) var(--spacing-xs);
   border: 1px solid var(--color-border-light);
   vertical-align: top;
@@ -181,19 +181,19 @@ body {
   line-height: var(--line-height-compact);
 }
 
-.legumineuses-table tbody tr:nth-child(even) {
+.table-aliments tbody tr:nth-child(even) {
   background: var(--color-background-light);
 }
 
 /* === COLONNES SPÉCIFIQUES === */
-.legume-name {
+.nom-aliment {
   font-weight: bold;
   color: var(--color-secondary-blue);
   width: 18%;
 }
 
 /* Centrage vertical pour les cellules avec rowspan */
-.legumineuses-table td[rowspan] {
+.table-aliments td[rowspan] {
   vertical-align: middle;
 }
 
@@ -274,18 +274,18 @@ body {
 /* === GESTION AVANCÉE DES SAUTS DE PAGE === */
 @media print {
   /* Assurer qu'il y a assez d'espace pour au moins 3 lignes de tableau + header */
-  .legumineuses-table {
+  .table-aliments {
     widows: 3;
     orphans: 3;
   }
   
   /* Si le tableau se divise, répéter le header */
-  .legumineuses-table thead th {
+  .table-aliments thead th {
     page-break-after: avoid;
   }
   
   /* Éviter qu'une seule ligne soit isolée en bas ou en haut de page */
-  .legumineuses-table tbody tr {
+  .table-aliments tbody tr {
     widows: 2;
     orphans: 2;
   }
@@ -313,6 +313,43 @@ body {
 }
 
 /* Ajustement des largeurs pour la fiche viandes */
-.legumineuses-table .commentaires {
+.table-aliments .commentaires {
   width: 35%;
+}
+
+/* Styles pour les sections en deux colonnes - Impression */
+.recipe-base {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--print-spacing-compact-md);
+  margin-bottom: var(--print-spacing-compact-lg);
+  page-break-inside: avoid;
+}
+
+.recipe-base .ingredients,
+.recipe-base .technique,
+.recipe-base .notes {
+  background: var(--color-background-light) !important;
+  padding: var(--print-spacing-compact-sm);
+  border-radius: var(--print-border-radius-small);
+  border-left: 2px solid var(--color-primary-blue) !important;
+  page-break-inside: avoid;
+}
+
+.recipe-base h4 {
+  margin-top: 0;
+  margin-bottom: var(--print-spacing-compact-sm);
+  color: var(--color-primary-blue) !important;
+  font-size: var(--print-font-size-subtitle-compact);
+  font-weight: 600;
+  page-break-after: avoid;
+}
+
+.recipe-base ul {
+  margin-bottom: 0;
+}
+
+.recipe-base li {
+  page-break-inside: avoid;
+  margin-bottom: var(--print-spacing-compact-xs);
 }
