@@ -136,6 +136,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--screen-spacing-xl);
   margin-bottom: var(--screen-spacing-xxl);
+  align-items: start;
 }
 
 .cuisine-card {
@@ -254,13 +255,15 @@ body {
 }
 
 .category-content {
-  max-height: 1000px;
-  overflow: hidden;
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
   transition: max-height 0.4s ease-out;
 }
 
 .category.collapsed .category-content {
   max-height: 0;
+  overflow: hidden;
 }
 
 .category ul {
