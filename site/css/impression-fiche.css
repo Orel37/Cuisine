@@ -319,10 +319,18 @@ body {
 
 /* Styles pour les sections en deux colonnes - Impression */
 .recipe-base {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  page-break-inside: avoid;
+}
+
+/* Container pour proportions et technique en deux colonnes - Impression */
+.proportions-technique-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--print-spacing-compact-md);
-  margin-bottom: var(--print-spacing-compact-lg);
+  gap: var(--spacing-sm);
   page-break-inside: avoid;
 }
 
@@ -352,4 +360,81 @@ body {
 .recipe-base li {
   page-break-inside: avoid;
   margin-bottom: var(--print-spacing-compact-xs);
+}
+
+/* Container pour les types d'ingrédients en deux colonnes - Impression */
+.type-ingredients-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+  page-break-inside: avoid;
+}
+
+/* Paragraphe d'introduction au-dessus des matières - Impression */
+.ingredients-intro {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, #e3f2fd, #f8f9fa) !important;
+  border: 1px solid rgba(52, 144, 220, 0.2) !important;
+  border-radius: 4px;
+  padding: var(--spacing-xs);
+  margin: 0 0 var(--spacing-xs) 0;
+  font-style: italic;
+  color: #333 !important;
+  text-align: center;
+  font-size: var(--font-size-text-compact);
+  page-break-after: avoid;
+}
+
+/* Styles pour la section type d'ingrédients - Impression */
+.type-ingredients {
+  background: linear-gradient(145deg, #f8f9fa, #ffffff) !important;
+  border: 1px solid rgba(52, 144, 220, 0.2) !important;
+  border-radius: 4px;
+  padding: var(--spacing-xs);
+  margin-bottom: 0;
+  page-break-inside: avoid;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.type-ingredients h4 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-primary-blue) !important;
+  font-size: var(--font-size-subtitle-compact);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--color-primary-blue);
+  padding-bottom: 2px;
+  page-break-after: avoid;
+}
+
+.type-ingredients h4::before {
+  content: "•";
+  color: var(--color-secondary-blue) !important;
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+
+.type-ingredients ul {
+  margin: 0;
+  padding-left: var(--spacing-md);
+  list-style: none;
+}
+
+.type-ingredients li {
+  position: relative;
+  padding: 2px 0;
+  font-size: var(--font-size-text-compact);
+  color: #333 !important;
+  page-break-inside: avoid;
+}
+
+.type-ingredients li::before {
+  content: "→";
+  position: absolute;
+  left: calc(-1 * var(--spacing-md));
+  color: var(--color-primary-blue) !important;
+  font-weight: bold;
 }

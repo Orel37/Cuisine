@@ -1,5 +1,3 @@
-/* ===== STYLE MODERNE POUR FICHES TABLEAU ===== */
-
 /* Import des variables existantes */
 @import url('variables.css');
 
@@ -15,7 +13,7 @@ body {
   margin: 0;
   padding: var(--screen-spacing-compact-md);
   font-family: var(--font-family-base);
-  background: linear-gradient(135deg, var(--color-background-light) 0%, #ffffff 100%);
+  background: linear-gradient(135deg, var(--color-background-light) 0%, var(--color-white) 100%);
   color: var(--color-text-dark);
   line-height: var(--screen-line-height-compact);
   display: flex;
@@ -410,17 +408,22 @@ body {
   font-weight: 600;
 }
 
-/* Ajustement des largeurs pour la fiche viandes */
 .table-aliments .commentaires {
   width: 35%;
 }
 
-/* Styles pour les sections en deux colonnes */
 .recipe-base {
+  display: flex;
+  flex-direction: column;
+  gap: var(--screen-spacing-compact-lg);
+  margin-bottom: var(--screen-spacing-compact-lg);
+}
+
+/* Container pour proportions et technique en deux colonnes */
+.proportions-technique-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--screen-spacing-compact-lg);
-  margin-bottom: var(--screen-spacing-compact-lg);
 }
 
 .recipe-base .ingredients,
@@ -440,10 +443,111 @@ body {
   font-weight: 600;
 }
 
+/* Container pour les types d'ingrédients en deux colonnes */
+.type-ingredients-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--screen-spacing-compact-sm);
+  margin-bottom: var(--screen-spacing-compact-md);
+}
+
+/* Paragraphe d'introduction au-dessus des matières */
+.ingredients-intro {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+  border: 1px solid rgba(var(--color-primary-blue-rgb, 52, 144, 220), 0.2);
+  border-radius: var(--screen-border-radius-small);
+  padding: var(--screen-spacing-compact-sm);
+  margin: 0 0 var(--screen-spacing-compact-sm) 0;
+  font-style: italic;
+  color: var(--color-text-dark);
+  text-align: center;
+  font-size: var(--screen-font-size-text-compact);
+}
+
+/* Styles pour la section type d'ingrédients */
+.type-ingredients {
+  background: linear-gradient(145deg, #f8f9fa, #ffffff);
+  border: 1px solid rgba(var(--color-primary-blue-rgb, 52, 144, 220), 0.15);
+  border-radius: var(--screen-border-radius-small);
+  padding: var(--screen-spacing-compact-sm);
+  margin-bottom: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.type-ingredients:hover {
+  border-color: rgba(var(--color-primary-blue-rgb, 52, 144, 220), 0.3);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-1px);
+}
+
+.type-ingredients h4 {
+  margin-top: 0;
+  margin-bottom: var(--screen-spacing-compact-sm);
+  color: var(--color-primary-blue);
+  font-size: var(--screen-font-size-subtitle-compact);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--color-primary-blue);
+  padding-bottom: var(--screen-spacing-compact-xs);
+  display: flex;
+  align-items: center;
+}
+
+.type-ingredients h4::before {
+  content: "•";
+  color: var(--color-secondary-blue);
+  font-size: 1.2em;
+  margin-right: var(--screen-spacing-compact-xs);
+}
+
+.type-ingredients ul {
+  margin: 0;
+  padding-left: var(--screen-spacing-compact-lg);
+  list-style: none;
+}
+
+.type-ingredients li {
+  position: relative;
+  padding: var(--screen-spacing-compact-xs) 0;
+  font-size: var(--screen-font-size-text-compact);
+  color: var(--color-text-dark);
+  transition: color 0.2s ease;
+}
+
+.type-ingredients li::before {
+  content: "→";
+  position: absolute;
+  left: calc(-1 * var(--screen-spacing-compact-lg));
+  color: var(--color-primary-blue);
+  font-weight: bold;
+}
+
+.type-ingredients li:hover {
+  color: var(--color-primary-blue);
+}
+
 /* Responsive : sur petits écrans, passer en colonne unique */
 @media screen and (max-width: 768px) {
-  .recipe-base {
+  .proportions-technique-container {
     grid-template-columns: 1fr;
     gap: var(--screen-spacing-compact-md);
+  }
+  
+  .type-ingredients-container {
+    grid-template-columns: 1fr;
+    gap: var(--screen-spacing-compact-xs);
+  }
+  
+  .ingredients-intro {
+    margin-bottom: var(--screen-spacing-compact-xs);
+    padding: var(--screen-spacing-compact-xs);
+  }
+  
+  .type-ingredients {
+    margin-bottom: var(--screen-spacing-compact-xs);
+    padding: var(--screen-spacing-compact-sm);
   }
 }
