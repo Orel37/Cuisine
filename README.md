@@ -30,3 +30,34 @@ Voici une liste d'ingrédients à garder en réserve chez soi :
 * Mirin
 * Shiitake
 * Kombu
+
+# Sources et Inspirations
+
+## Cuisine Asiatique 
+
+* [Le Riz Jaune](https://www.youtube.com/@lerizjaune)
+
+### Cuisine Chinoise
+
+* [Taste Show](https://www.youtube.com/@TasteShow)
+* [Souped Up Recipes](https://www.youtube.com/@SoupedUpRecipes)
+* [Made with Lau](https://www.youtube.com/@MadeWithLau)
+
+### Cuisine Japonaise
+
+* [The Sushi Man](https://www.youtube.com/@TheSushiMan)
+
+## Cuisine Française
+
+* [Chef Etchebest](https://www.youtube.com/@ChefEtchebest)
+* [Les Carnets de Julie](https://www.youtube.com/@LescarnetsdeJulieofficiel)
+* [Laurent Mariotte](https://www.youtube.com/@laurentmariotte6985/)
+
+## Cuisine Italienne
+
+* [Pasta Grannies](https://www.youtube.com/@pastagrannies/)
+
+## Cuisine de toutes origines
+
+* [Whoogy's](https://www.youtube.com/@Whoogys)
+* [Au bord de l'assiette](https://www.youtube.com/@auborddelassiette)
