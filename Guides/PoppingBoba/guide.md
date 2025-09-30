@@ -38,11 +38,66 @@ La réaction peut s'écrire de la manière suivante :
 
 L'alginate de sodium, au contact du chlorure de calcium, produit du chlorure de sodium et de l'alginate de calcium. 
 
-C'est l'alginate de calcium qui compose la fine membrane qui emprisonne le liquide. 
+C'est l'alginate de calcium qui compose la fine membrane qui emprisonne le liquide.
 
 ## Préparation
 
+Pour fabriquer les sphères : 
 
+* 150 mL de liquide à emprisonner
+* 5 g d'alginate de sodium
+* 50-100 mL d'eau distillée, ou peu riche en calcium
+
+Pour le bain à plonger les sphères :
+
+* 1 L d'eau du robinet
+* 6 g de lactate de calcium
+
+Préparer également un bol d'eau pour le rinçage, ainsi qu'une seringue ou une pipette adapté à la consommation alimentaire, pour former les boules. 
+
+Les étapes sont les suivantes : 
+
+1. Mélanger l'alginate de sodium, l'eau, et le liquide à emprisonner dans un bol, jusqu'à dissolution complète. 
+Réserver au frais pendant 1 à 2 heures.
+Les bulles qui se sont formées pendant le mélange doivent avoir complétement disparu pour un résultat final optimal.
+2. Mélanger le lactate de calcium dans l'eau, jusqu'à dissolution complète.
+3. Pomper le liquide dans la seringue ou la pipette, puis le relâcher, une goutte à la fois, dans le bain de lactate de calcium.
+4. Attendre environ 1 min ou moins, selon la taille de la sphère, avant de les retirer du bain.
+Rincer dans l'eau.
+5. Conserver au frais.
+
+## Paramètres
+
+2 paramètres sont à prendre en compte sur la solution à emprisonner :
+
+* Sa teneur en calcium.
+Trop de calcium entraîne un liquide trop dense, puisque celui-ci réagit avec l'alginate dès son entrée en contact. 
+Le citrate de sodium peut aider à isoler ce calcium et ainsi permettre, après l'ajout de l'alginate, de former des sphères d'une bonne consistence.
+* Son pH.
+La réaction doit se dérouler dans un pH entre 4 et 10.
+Le citrate de sodium peut là encore aider à remonter le pH si la solution est trop acide.
+
+2 autres paramètres sont à considérer pour maîtriser la réaction :
+
+* La technique de plongée.
+Il est nécessaire, pour faire des sphères parfaites, de maîtriser son geste et pratiquer suffisamment longtemps.
+* Le temps de bain dans le lactate de calcium.
+Plus le temps est élevé, plus la membrane de la sphère sera épaisse.
+Le processus de sphérification se faisant vers l'intérieur de la sphère, la quantité de liquide dans la sphère sera ainsi plus réduite.
+La membrane est alors composée du liquide à transformer, ce qui lui donne du goût.
+
+## Sphérification inversée
+
+La réaction de sphérification est dite inversée lorsque :
+
+* le liquide à emprisonner est mélangé au lactate de calcium.
+* l'alginate de sodium est dissout dans le bain de plongée.
+
+Cette réaction est utilisée lorsque la teneur en calcium du liquide à emprisonner est trop riche en calcium pour lui permettre de rester liquide après adjonction de l'alginate de sodium.
+C'est notamment le cas des yaourts, par exemple.
+
+Contrairement à la sphérification décrite plus haut, la réaction se produit vers l'extérieur. 
+La membrane produite est sans saveur particulière.
 
 # Références
 * https://en.wikipedia.org/wiki/Popping_boba
