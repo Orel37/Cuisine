@@ -1,24 +1,19 @@
-# Popping Boba
+# Sphérification
 
-Les popping bobas font références aux billes contenus dans la plupart des [thés aux perles](https://fr.wikipedia.org/wiki/Th%C3%A9_aux_perles) froids. 
+La sphérification est une technique de cuisine moléculaire qui consiste à réaliser une sphère d'un liquide comestible. 
 
-Le thé aux perles (ou bubble tea) est une boisson originaire de Taiwan dans les années 1980. 
-C'est un thé ajouté de lait, ou non, consommé chaud ou froid, et contenant des billes de tapioca. 
-Les poppings boba sont une alternative aux billes de tapioca. 
-Il s'agit de billes de liquide sucré dans une enveloppe gélifiée. 
+## Sphérification chimique
 
-## Sphérification
-
-Les popping bobas sont le résultat d'une réaction chimique, appelée sphérification, entre l'algiate de sodium et le lactate de calcium. 
+Il est possible de réaliser des sphères grâce à la réaction chimique entre l'alginate de sodium et le lactate de calcium.
 Cette réaction entraîne la formation d'un gel comestible.
-Avec un protocole précis, on peut l'utiliser pour emprisonner un liquide dans une bille à la fine couche de gel. 
+Avec un protocole précis, on peut l'utiliser pour emprisonner un liquide dans une bille à la fine couche de gel.
 
-### Algiate de sodium 
+### Alginate de sodium 
 
-L'algiate de sodium (C<sub>6</sub>H<sub>7</sub>NaO<sub>6</sub>) est un sel extrait d'une algue brune.
+L'alginate de sodium (C<sub>6</sub>H<sub>7</sub>NaO<sub>6</sub>) est un sel extrait d'une algue brune.
 Il a des propriétés gélifiantes, épaississantes, et comporte de multiples applications dans le domaine industriel alimentaire et médical. 
 
-L'algiate de sodium est également nommé [E407](https://www.quechoisir.org/comparatif-additifs-alimentaires-n56877/e401-alginate-de-sodium-p223589/). 
+L'alginate de sodium est également nommé [E407](https://www.quechoisir.org/comparatif-additifs-alimentaires-n56877/e401-alginate-de-sodium-p223589/). 
 Sa consommation ne présente pas d'inquiétude particulière.
 
 ### Lactate de calcium
@@ -27,7 +22,7 @@ Le lactate de calcium (C<sub>6</sub>H<sub>10</sub>CaO<sub>6</sub>) est un sel cr
 Il est utilisé comme additif alimentaire où il trouve de nombreuses applications, ainsi que dans le domaine médical pour traiter les carences en calcium.
 
 Le lactate de calcium est également connu sous la dénomination de [E327](https://www.quechoisir.org/comparatif-additifs-alimentaires-n56877/e327-lactate-de-calcium-p223481/).
-Il est également parfaitement sain pour la consommation.
+Il est parfaitement sain pour la consommation.
 
 ### Un peu de chimie
 
@@ -40,7 +35,7 @@ L'alginate de sodium, au contact du chlorure de calcium, produit du chlorure de 
 
 C'est l'alginate de calcium qui compose la fine membrane qui emprisonne le liquide.
 
-## Préparation
+### Préparation
 
 Pour fabriquer les sphères : 
 
@@ -66,7 +61,7 @@ Les bulles qui se sont formées pendant le mélange doivent avoir complétement 
 Rincer dans l'eau.
 5. Conserver au frais.
 
-## Paramètres
+### Paramètres
 
 2 paramètres sont à prendre en compte sur la solution à emprisonner :
 
@@ -86,7 +81,7 @@ Plus le temps est élevé, plus la membrane de la sphère sera épaisse.
 Le processus de sphérification se faisant vers l'intérieur de la sphère, la quantité de liquide dans la sphère sera ainsi plus réduite.
 La membrane est alors composée du liquide à transformer, ce qui lui donne du goût.
 
-## Sphérification inversée
+### Sphérification inversée
 
 La réaction de sphérification est dite inversée lorsque :
 
@@ -98,6 +93,18 @@ C'est notamment le cas des yaourts, par exemple.
 
 Contrairement à la sphérification décrite plus haut, la réaction se produit vers l'extérieur. 
 La membrane produite est sans saveur particulière.
+
+## Applications
+
+### Popping Bobas
+
+Les popping bobas font références aux billes contenues dans la plupart des [thés aux perles](https://fr.wikipedia.org/wiki/Th%C3%A9_aux_perles) froids.
+
+Le thé aux perles (ou bubble tea) est une boisson originaire de Taiwan dans les années 1980.
+C'est un thé ajouté de lait, ou non, consommé chaud ou froid, et contenant des billes de tapioca.
+Les poppings boba sont une alternative aux billes de tapioca.
+Il s'agit de billes de liquide sucré dans une enveloppe gélifiée.
+
 
 # Références
 * https://en.wikipedia.org/wiki/Popping_boba
