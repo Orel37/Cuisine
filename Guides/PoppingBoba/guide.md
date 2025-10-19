@@ -31,9 +31,15 @@ La réaction peut s'écrire de la manière suivante :
 <sub></sub>
 2 NaC<sub>6</sub>H<sub>7</sub>O<sub>6</sub> + CaCl<sub>2</sub> --> 2 NaCl + C<sub>12</sub>H<sub>14</sub>CaO<sub>12</sub>
 
-L'alginate de sodium, au contact du chlorure de calcium, produit du chlorure de sodium et de l'alginate de calcium. 
+L'alginate de sodium, au contact du chlorure de calcium, produit du chlorure de sodium et de l'alginate de calcium.
 
-C'est l'alginate de calcium qui compose la fine membrane qui emprisonne le liquide.
+L'alginate de sodium est formé à partir de l'alginate, un polysaccharide chargé négativement, combiné au sodium chargé positivement.
+Lorsqu'il est dissout dans l'eau, les ions sodium se dissocient de la molécule.
+
+Au contact d'ions calcium en solution, l'alginate se combine avec les ions calcium, doublement chargés positivement. 
+Cette double charge positive permet de combiner deux molécules d'alginate, formant ainsi une solution plus épaisse et gélifiante.
+
+C'est donc l'alginate de calcium qui compose la fine membrane qui emprisonne le liquide.
 
 ### Préparation
 
@@ -48,13 +54,14 @@ Pour le bain à plonger les sphères :
 * 1 L d'eau du robinet
 * 6 g de lactate de calcium
 
-Préparer également un bol d'eau pour le rinçage, ainsi qu'une seringue ou une pipette adapté à la consommation alimentaire, pour former les boules. 
+Préparer également un bol d'eau pour le rinçage, ainsi qu'une seringue ou une pipette adaptée à la consommation alimentaire, pour former les boules. 
 
 Les étapes sont les suivantes : 
 
 1. Mélanger l'alginate de sodium, l'eau, et le liquide à emprisonner dans un bol, jusqu'à dissolution complète. 
+On peut utiliser un blender car l'alginate de sodium est difficilement soluble dans l'eau.
 Réserver au frais pendant 1 à 2 heures.
-Les bulles qui se sont formées pendant le mélange doivent avoir complétement disparu pour un résultat final optimal.
+Les bulles qui se sont formées durant le mélange doivent avoir complétement disparu pour un résultat final optimal.
 2. Mélanger le lactate de calcium dans l'eau, jusqu'à dissolution complète.
 3. Pomper le liquide dans la seringue ou la pipette, puis le relâcher, une goutte à la fois, dans le bain de lactate de calcium.
 4. Attendre environ 1 min ou moins, selon la taille de la sphère, avant de les retirer du bain.
@@ -113,4 +120,6 @@ Il s'agit de billes de liquide sucré dans une enveloppe gélifiée.
 * https://fr.wikipedia.org/wiki/Lactate_de_calcium
 * https://www.quechoisir.org/comparatif-additifs-alimentaires-n56877/e401-alginate-de-sodium-p223589/
 * [Popping Boba Recipe | Making Juicy Pearls for Bubble Tea](https://www.youtube.com/watch?v=xBQMeGXJR0A)
+  * Intructions écrites : [Make Popping Boba Balls Out of Your Drinks](https://www.sciencebuddies.org/science-fair-projects/project-ideas/FoodSci_p074/cooking-food-science/boba-spherification?ytid=74RnO_wHX7k&ytsrc=description)
 * [How to Make Popping Boba: The Science of Spherification](https://www.youtube.com/watch?v=74RnO_wHX7k)
+* [Étape 1 : Préparation des sphères d'eau via la sphérication inverse](https://wiki.fablab.sorbonne-universite.fr/BookStack/books/une-alternative-aux-bouteilles-en-plastique-les-spheres-deau-comestibles/page/etape-1-preparation-des-spheres-deau-via-la-spherication-inverse)
