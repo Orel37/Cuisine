@@ -45,6 +45,14 @@ Frites de patate douce au four
 
 Boulettes/galettes de céréales au four
 
+Bases de la pâtisserie
+    pâte brisée maison
+            500g farine
+            250g beurre
+            10g sel
+            150ml eau
+            Sabler la farine, le beurre, le sel. Ajouter l'eau petit à petit, mélanger. Laisser reposer au frais.
+
 Confiserie
 	Caramels mous (Essayer aussi avec du lait concentré sucré)
 		100g sucre
