@@ -12,6 +12,24 @@ Les points les plus intéressants sont les suivants :
 Cela permet de tuer les [parasites](https://agriculture.gouv.fr/le-parasitisme-des-produits-de-la-peche-quest-ce-que-cest) éventuellement contenus dans les poissons sauvages. 
 À la maison, on peut congeler le poisson pendant un minimum de 7 jours pour garantir l'absence de parasites. 
 
+## L'abattage traditionnel
+
+L'[ikejime](https://fr.wikipedia.org/wiki/Ikejime) est une technique d'abattage traditionnelle japonaise.
+Son but est de stopper le processus biochimique qui occasionne la rigidité cadavérique, et qui altère le goût de la chair.
+Cela est possible en sectionnant et en détruisant rapidement le système nerveux du poisson, avant de le saigner.
+
+La technique précise varie selon la taille du poisson.
+La plupart du temps, elle s'effectue en deux étapes :
+* Une incision rapide derrière la tête, une autre au niveau de la queue.
+* L'insertion d'un fil rigide métallique pour détruire la möelle épinière.
+
+La qualité du poisson au Japon dépend significativement du traitement qui lui est procuré avant la commercialisation.
+En France, le poisson est souvent tué, puis conservé sur le bâteau avant qu'il soit acheminé vers son lieu de vente ou de consommation.
+Au Japon, le poisson est ramené à quai vivant, puis abattu au dernier moment à l'aide de l'ikejime, si possible par le chef qui souhaite le servir.
+([Référence](https://www.lemonde.fr/m-gastronomie/article/2017/04/27/l-ikejime-cet-art-japonais-qui-sublime-le-poisson_5118590_4497540.html))
+
+Cet [article](https://thejapanesefoodlab.com/ikejime/) détaille le processus biochimique qui intervient pendant la mort du poisson.
+
 ## Saumon
 
 ### Choix du poisson
