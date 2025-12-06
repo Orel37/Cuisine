@@ -14,7 +14,8 @@ Frotter gentiment le riz pendant 20 à 30 secondes maximum, sans exercer de pres
 Cette étape doit se faire rapidement pour éviter au riz d'absorber l'eau riche en amidon.
 
 Laver de cette façon encore 3 ou 4 fois, selon la transparence de l'eau de lavage. 
-Il est inutile de laver jusqu'à obtenir une eau parfaitement claire. Au contraire, Un riz trop lavé perd de sa sucrosité et de son goût, et casse plus facilement.
+Il est inutile de laver jusqu'à obtenir une eau parfaitement claire. 
+Au contraire, Un riz trop lavé perd de sa sucrosité et de son goût, et casse plus facilement.
 Laisser tremper le riz pendant un minimum de 10-15 min, mais idéalement 1h. 
 S'il fait un peu chaud, mettre le riz au réfrigérateur. 
 Le but et de laisser le riz absorber de l'eau avant la cuisson. 
@@ -39,17 +40,19 @@ La préparation vinaigrée se fait selon les proportions suivantes :
 
 Une fois le riz cuit, il doit être immédiatement mélangé avec la préparation vinaigrée tant qu'il est encore chaud.
 
-Pour ce faire, on verse le riz dans un grand bol, puis, on verse le vinaigre au dessus du bol de riz, en utilisant la cuillère à riz pour aider à le répartir. La cuillère à riz se recouvre de vinaigre, aidant ainsi au mélange dans la phase suivante.
+Pour ce faire, on verse le riz dans un grand bol, puis, on verse le vinaigre au-dessus du bol de riz, en utilisant la cuillère à riz pour aider à le répartir. 
+La cuillère à riz se recouvre de vinaigre, aidant ainsi au mélange dans la phase suivante.
 
 D'abord, retourner le riz afin que le vinaigre recouvre un maximum de grains de riz par gravité.
 
-Ensuite, "couper" le riz avec la cuillère, afin de séparer les grains, et de les mettre au maximum au contact du vinaigre. Ne pas presser le riz.
+Ensuite, "couper" le riz avec la cuillère, afin de séparer les grains, et de les mettre au maximum au contact du vinaigre. 
+Ne pas presser le riz.
 
 Laisser reposer le riz en recouvrant le bol de riz d'un linge humide, jusqu'à ce que le riz soit à la bonne température pour la préparation des sushis.
 
 ## Mes proportions 
 
-Avec mon matériel, et mes ingrédients habituelles, j'obtiens un bon résultat avec les proportions suivantes : 
+Avec mon matériel, et mes ingrédients habituels, j'obtiens un bon résultat avec les proportions suivantes : 
 
 * Pour la cuisson du riz, j'ai utilisé 480mL d'eau pour 450g de riz sec.
 * Pour assaisonner la même quantité de riz, j'utilise 9 cuillères à soupe de vinaigre de riz, 4 de sucre, et 1 de sel.
@@ -79,7 +82,7 @@ En gardant le pouce gauche sur la partie haut du riz, appliquer une pression ave
 
 # Vocabulaire traditionnel
 
-Donabé  : La gamelle de cuisson du riz traditionnelle
+Donabé : La gamelle de cuisson du riz traditionnelle
 Hinoki/ bois de Cyprès : materiau du grand bol pour mélanger le riz avec la préparation vinaigrée.
 Shamoji : La cuillère à riz.
 Shiojime: tightening with salt. C'est le processus de salage d'un poisson pour lui faire rendre son surplus d'humidité, et concentrer les saveurs de la chair. 
