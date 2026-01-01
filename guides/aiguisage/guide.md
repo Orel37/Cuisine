@@ -4,7 +4,7 @@
 
 ### Profil
 
-![Anatomie d'un couteau](/Aiguisage/img/anatomie-couteau.png "Anatomie d'un couteau")
+![Anatomie d'un couteau](img/anatomie-couteau.png "Anatomie d'un couteau")
 
 Les différentes parties indiquées sur le schéma sont : 
 1. **La pointe.**
