@@ -14,21 +14,8 @@ Cela permet de tuer les [parasites](https://agriculture.gouv.fr/le-parasitisme-d
 
 ## L'abattage traditionnel
 
-L'[ikejime](https://fr.wikipedia.org/wiki/Ikejime) est une technique d'abattage traditionnelle japonaise.
-Son but est de stopper le processus biochimique qui occasionne la rigidité cadavérique, et qui altère le goût de la chair.
-Cela est possible en sectionnant et en détruisant rapidement le système nerveux du poisson, avant de le saigner.
-
-La technique précise varie selon la taille du poisson.
-La plupart du temps, elle s'effectue en deux étapes :
-* Une incision rapide derrière la tête, une autre au niveau de la queue.
-* L'insertion d'un fil rigide métallique pour détruire la möelle épinière.
-
-La qualité du poisson au Japon dépend significativement du traitement qui lui est procuré avant la commercialisation.
-En France, le poisson est souvent tué, puis conservé sur le bâteau avant qu'il soit acheminé vers son lieu de vente ou de consommation.
-Au Japon, le poisson est ramené à quai vivant, puis abattu au dernier moment à l'aide de l'ikejime, si possible par le chef qui souhaite le servir.
-([Référence](https://www.lemonde.fr/m-gastronomie/article/2017/04/27/l-ikejime-cet-art-japonais-qui-sublime-le-poisson_5118590_4497540.html))
-
-Cet [article](https://thejapanesefoodlab.com/ikejime/) détaille le processus biochimique qui intervient pendant la mort du poisson.
+L'[ikejime](https://fr.wikipedia.org/wiki/Ikejime) est particulièrement pertinente dans le cadre de la préparation des sushis.
+Elle est décrite plus en détail dans la section dédiée de ce guide : [ikejime](../guide.md#ikejime).
 
 ## Saumon
 
@@ -79,6 +66,7 @@ Pour la fabrication des sushis à la maison, on retiendra surtout la deuxième f
 ### Kombujime
 
 [Kombujime](https://thejapanesefoodlab.com/kombujime/) est une technique de poisson maturé consistant à emballer les tranches de poissons entre des morceaux de kombu, préalablement réhydraté avec un alcool dilué. 
-Le kombu transfére ainsi une partie de son glutamate au poisson, améliorant son goût. 
+Le kombu absorbe une partie de l'humidité du poisson, et transfère dans sa chair une partie de son glutamate, se combinant avec l'acide inosidique qu'il contient.
+Cette synergie permet d'obtenir un umami intense.
 
 Elle est surtout utilisée pour les poissons à chair blanche, dont les saveurs sont plus subtiles. 
