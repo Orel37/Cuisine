@@ -2,83 +2,11 @@
 
 Le pain est une recette à base de farine et d'eau auxquels on ajoute un agent de fermentation afin de produire une pâte levée.
 
-## Ingrédients
+Ce guide décrit les connaissances essentielles pour la fabrication du pain.
 
-Le pain se compose des éléments de base suivants :
-1. Farine
-2. Eau
-3. Sel
-4. Agent de fermentation
+Au sommaire : 
 
-Chaque ingrédient est à choisir avec soin. 
-
-### Farine
-
-La farine, broyée à partir de céréales comme le blé, se compose de :
-* gluten.
-C'est la protéine, qui est responsable de l'élasticité du pain.
-La farine doit contenir un taux suffisant de gluten pour garantir un bon développement. 
-* amidon. 
-L'amidon est un sucre complexe, qui nourrit la fermentation.
-
-En France, le type de farine se définit par le taux de son, d'après la [nomenclature française](https://fr.wikipedia.org/wiki/Farine#Classification_fran%C3%A7aise_des_farines).
-Il désigne le taux de cendres qui la compose, c'est-à-dire du pourcentage résiduel de la combustion de 100g de farine à 600°C. 
-Ces cendres sont composées de matières minérales, surtout présentes dans le son de blé. 
-Plus cette quantité est élevée, plus le pain sera "_typé_", moins il sera blanc. 
-Une farine typée compose essentiellement les pains de campagne, par exemple. 
-
-### Eau
-
-L'eau est à choisir la plus pure possible, et doit être à bonne température.
-
-### Sel
-
-Le sel a un rôle antioxydant.
-Il rend plus difficile la formation du réseau de gluten par des ponts disulfure, qui est une réaction d'oxydation.
-
-### Agent de fermentation
-
-On distingue deux sous-familles d'agents de fermentation.
-
-#### Levure
-
-La [levure de boulanger](https://fr.wikipedia.org/wiki/Levure_de_boulanger) (_Saccharomyces cerevisiae_) est un champignon unicellulaire.
-En consommant les sucres disponibles dans son milieu, il produit une fermentation alcoolique (éthanol + CO2). 
-Une fermentation alcoolique ne nécessite pas d'oxygène.
-
-Un pain fabriqué avec de la levure sera plus aéré qu'avec un levain. 
-La levure est surtout utilisée pour sa praticité et sa facilité d'utilisation.
-
-#### Levain
-
-Le [levain](https://fr.wikipedia.org/wiki/Levain_panaire) consiste en un mélange de farine complète et d'eau, laissé reposé dans un environnement ambiant afin de servir de culture à des bactéries lactiques et à des levures. 
-Il s'y produit alors une fermentation majoritairement lactique qui créé de l'acide lactique et/ou acétique qui créé de l'acide acétique.
-
-Le levain a de nombreux avantages. 
-Un pain au levain sera plus digeste, développera plus d'arômes et se conservera plus longtemps malgré un temps de fermentation plus grand ainsi que la nécessité de l'entretenir soigneusement pour avoir une qualité de pain optimale.
-
-Le levain est une flore microbienne se composant de plusieurs espèces :
-* Des levures présentes dans la farine naturellement.
-* Des bactéries lactiques, présentes majoritairement, qui peuvent produire une fermentation lactique ou acétique en fonction de l'environnement qu'on leur donne.
-
-Les rafraichis successifs vont favoriser ou inhiber le développement de certaines espèces de bactéries (environ 140 au départ). 
-Vers le moment où le pain est prêt à être utilisé, il ne reste plus qu'une dizaine d'espèces. 
-En fonction de l'environnement qu'on leur donne (farine, température de fermentation, hydratation), la fermentation sera lactique ou acétique. 
-Les levains produiront davantage de fermentation que le taux de son est élevé dans la farine. 
-En revanche, si le taux de son est trop élevé, la pâte sera trop lourde et aura du mal à lever. 
-Plus l'hydratation est importante, plus la fermentation est grande et est majoritairement lactique (levain liquide). 
-Le goût sera alors plus doux. 
-Une hydratation moindre privilégie la fermentation acétique qui produit une acidité et un goût plus prononcés. 
-Plus la température est haute, plus la fermentation démarre rapidement. 
-Les bactéries sont d'autant plus présentes que la température est élevée. 
-Cela procure alors une acidité plus prononcée. 
-En revanche, mettre le levain sous des températures plus fraîches favorise le développement des levures, et donc un volume de pain plus grand.
-
-Il est à noter qu'on ne peut pas espérer un volume de pain similaire qu'en travaillant uniquement avec des levures. 
-Pour comparer, 1kg de levain contient 40 millions de cellules. 
-Un gramme seulement de levure contient lui plusieurs milliards de cellules. 
-Ajouter ne serait-ce qu'un peu de levure dans une pâte favorise alors beaucoup la prolifération des levures.
-([Réf](https://www.youtube.com/watch?v=WYFi7z0FliE&list=WL&index=17&t=268s))
+1. [Ingrédients](ingredients.md)
 
 ## Panification
 
@@ -208,6 +136,7 @@ Il s'agit également d'une signature propre au boulanger, qui apporte une touche
 #### Cuisson 
 
 La cuisson doit se faire dans un four très chaud (250°C) et humide. 
+Une pierre à pain, ou à pizza, préchauffée dans le bas du four, permet de restituer sa chaleur emmagasinée au pain.
 L'humidité permet de développer et empêcher le pain de croûter au démarrage de la cuisson.
 Pendant la cuisson, la réaction de Maillard déclenche un brunissement des protéines et donc de la pâte, puisque celle-ci contient des sucres. 
 Elle donne à la croûte son goût très caractéristique.
@@ -257,3 +186,4 @@ Les rafraichis successifs vont permettre d'affiner les goûts, en particulier l'
 # Sources
 
 * [Ecole internationale de boulangerie](https://www.youtube.com/channel/UCRfyoVlvjE6JRKV6RQCfLJQ)
+* Le Larousse du pain, Eric Kayser, Larousse, 2013.
