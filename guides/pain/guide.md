@@ -7,6 +7,7 @@ Ce guide décrit les connaissances essentielles pour la fabrication du pain.
 Au sommaire : 
 
 1. [Ingrédients](ingredients.md)
+2. [Recettes](recettes.md)
 
 ## Panification
 
