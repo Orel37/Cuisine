@@ -66,9 +66,17 @@ Références :
 
 [Réf](https://fr.wikipedia.org/wiki/Fabrication_du_pain#%C3%89tapes_de_la_panification_directe)
 
+> Pour avoir du pain chaud au petit déjeuner, on peut, une fois le pointage achevé, façonner les pâtons vers 17h, puis les placer au réfrigérateur dans un bac fermé hermétiquement.
+> A basse température (4°C), la pâte va peu travailler et se conservera entre 10h et 12h.
+> Le lendemain matin, il suffira d'enfourner les pâtons réfrigérés.
+
 #### Frasage
 
 C'est l'étape de mélange des ingrédients jusqu'à obtention d'un mélange homogène, après entière absorption de l'eau par la farine.
+
+Les ingrédients sont à mélanger en respectant la température de base. 
+Elle s'obtient en additionnant la température de l'eau, de la farine, et de la pièce.
+Connaître et calculer la température de base permet d'assurer une fermentation et une régularité du pain optimale.
 
 Le gluten et l'amidon de la farine se gorgent d'eau, le gluten commençant alors à s'agglutiner et à former un réseau, emprisonnant les grains d'amidon.
 
@@ -94,7 +102,7 @@ Le pétrissage permet de dérouler et d'orienter les gluten, ainsi que d'incorpo
 
 Le pointage est une première étape de repos de la pâte, dont le but est de laisser la pâte fermenter. 
 Le pointage doit être fait en masse, c'est-à-dire avant toute division de pâte. 
-Cette étape peut durer d'un quart d'heure à douze heures.
+Cette étape peut durer d'un quart d'heure à douze heures, mais dure en général entre 1h et 3h.
 
 On peut ensuite diviser la pâte.
 
@@ -104,6 +112,7 @@ Après division, la pâte est repliée plusieurs fois sur elle-même.
 On dit qu'on lui fait un tour, ou un rabat. 
 Cette étape permet de chasser le gaz carbonique produit pendant le pointage et éventuellement corriger la force de la pâte en serrant plus ou moins les replis.
 Il est à noter qu'on peut aussi trop serrer la pâte, et ainsi déchirer le réseau de gluten.
+La pâte doit être travaillée le plus rapidement possible. 
 
 Le boulage vise également à homogénéiser les pâtons en utilisant toujours la même méthode de pliage. 
 Elle permet de faire des pains réguliers de manière consistante.
@@ -120,19 +129,24 @@ Cela permet de facilité la tenue de la pâte durant l'étape de faconnage.
 On façonne alors les pâtons selon leur forme définitive. 
 En manipulant la pâte, on chasse également le gaz carbonique, ce qui la resserre, multipliant ainsi le nombre d'alvéoles de la pâte.
 
+On peut congeler des pâtons à ce stade. 
+Il suffira de les décongeler à température ambiante, puis de les laisser pour un second temps de fermentation.
+
 #### Apprêt
 
 La phase d'apprêt consiste en une deuxième phase de pousse, en général effectuée sur une toile de lin.
 
 L'amidon est dégradée en sucres simples qui fermentent ensuite, libérant la plus grande partie du gaz carbonique dans le réseau de gluten. 
-C'est cette étape qui produit le gaz responsable de l'alvéolage de la mie de pain.
+C'est cette étape qui produit le gaz responsable de l'alvéolage de la mie, et doit donc impérativement être conservé à l'intérieur du pain.
 
 
-#### Grignage
+#### Grignage / Lamage
 
-À présent, le pain est scarifié avec une lame très coupante afin de faciliter et contrôler la pousse du pain pendant la cuisson. 
+Le pain doit être scarifié avec une lame très coupante afin de faciliter et contrôler, lors de la cuisson, le rejet de gaz carbonique et de vapeur d'eau retenus par le réseau glutineux.
+
 Il s'agit également d'une signature propre au boulanger, qui apporte une touche d'esthétisme au pain.
 
+Les entailles n'ont pas besoin d'être très profondes si le pâton est plutôt développé.
 
 #### Cuisson 
 
