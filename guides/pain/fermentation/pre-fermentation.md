@@ -23,11 +23,16 @@ Pour 500 g de farine, ajoutez de 20 à 50 % de levain-levure au moment du pétri
 ## L’autolyse
 
 Ce mode de pré-fermentation est en réalité un mode de pétrissage.
+Cela a pour effet de développer une réaction enzymatique, ce qui favorise l'extensibilité de la pâte, mais pas son élasticité.
+Cette technique est davantage à reserver pour le travail d'un pain avec un taux plus élevé de protéines.
+
 Mélangez la farine et l’eau pendant 4 minutes à vitesse lente, ou 5 minutes à la main.
 Il s’agit d’un simple frasage.
 Laissez reposer la pâte 1 heure (on peut prolonger ce temps jusqu’à 10 heures lorsqu’on veut travailler sur les saveurs du pain).
 Incorporez ensuite les autres ingrédients et pétrissez.
 Cette technique permet d’obtenir des pâtes plus souples et de réduire le temps de pétrissage final.
+
+[//]: # (TODO : A developper avec cet article : https://levainbio.com/cb/crebesc/autolyse/)
 
 ## La pâte fermentée
 

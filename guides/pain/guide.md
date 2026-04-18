@@ -47,6 +47,9 @@ Références :
 > A basse température (4°C), la pâte va peu travailler et se conservera entre 10h et 12h.
 > Le lendemain matin, il suffira d'enfourner les pâtons réfrigérés.
 
+> Les étapes présentées ici sont à prendre en considération d'un éventuel mode de pré-fermentation.
+> Ces modes sont documentées dans [Mode de pré-fermentation](fermentation/pre-fermentation.md).
+
 #### Frasage
 
 C'est l'étape de mélange des ingrédients jusqu'à obtention d'un mélange homogène, après entière absorption de l'eau par la farine.
@@ -59,15 +62,6 @@ Le gluten et l'amidon de la farine se gorgent d'eau, le gluten commençant alors
 
 Après le frasage, il se peut que la texture de la pâte ne soit pas celle désirée.
 On peut alors rajouter de l'eau (bassinage) ou de la farine (contre-frasage) pour l'ajuster.
-
-#### Autolyse
-
-L'[autolyse](https://www.youtube.com/watch?v=riyUIhELweU) consiste à fraser l'eau et la farine uniquement, et à laisser reposer le tout.
-
-Cela a pour effet de développer une réaction enzymatique, ce qui favorise l'extensibilité de la pâte, mais pas son élasticité. 
-Cette technique est davantage à reserver pour le travail d'un pain avec un taux plus élevé de protéines.
-
-[//]: # (TODO : A developper avec cet article : https://levainbio.com/cb/crebesc/autolyse/)
 
 #### Pétrissage
 
