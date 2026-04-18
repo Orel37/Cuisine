@@ -4,30 +4,7 @@ Le pain est une recette à base de farine et d'eau auxquels on ajoute un agent d
 
 Ce guide décrit les connaissances essentielles pour la fabrication du pain.
 
-Au sommaire : 
-
-1. [Ingrédients](ingredients.md)
-2. [Recettes](recettes.md)
-
 ## Panification
-
-### Fermentations
-
-Avant de comprendre la panification, il est nécessaire de bien connaître les différents types de fermentations.
-
-#### Fermentation alcoolique
-
-[//]: # (TODO : Décrire la fermentation alcoolique.)
-
-#### Fermentation lactique
-
-Bactéries lactiques sont anaérobies et halotolérantes.
-
-[//]: # (TODO : Décrire la fermentation lactique.)
-
-#### Fermentation acétique
-
-[//]: # (TODO : Décrire la fermentation acétique.)
 
 ### Un peu de chimie : le réseau de gluten
 
