@@ -103,3 +103,4 @@ Couper un saumon entier : https://www.youtube.com/watch?v=cH7jFk-C8qI
 * https://www.youtube.com/@tokyosushiacademyenglishcourse
 * https://www.youtube.com/@yamacuisine
 * https://thejapanesefoodlab.com/
+* https://www.youtube.com/channel/UC3JEv2kNJ-ZZc0pgq1e-Beg
