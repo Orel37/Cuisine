@@ -9,6 +9,11 @@ On peut utiliser les poissons suivants :
 * Thon
 * Dorade
 * Eglefin
+* Sériole
+* Chinchard
+* Bar
+* Maquereau (https://www.youtube.com/watch?v=SOiMUIQUREQ)
+* Crevette
 
 ## Makis Sushis
 
@@ -18,6 +23,13 @@ Quelques idées de rolls :
 * Thon cuit / mayonnaise/soja/sésame
 * Eglefin / Surimi
 
+## California Sushis
+
+Les californiens sont des rolls de makis inversés, surmontés d'un topping.
+
+Pour le topping : 
+* Saumon fumé
+* Avocat
 
 ## Temakis Sushis
 
