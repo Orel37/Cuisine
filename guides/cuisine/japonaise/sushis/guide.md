@@ -60,7 +60,7 @@ Avec mon matériel, et mes ingrédients habituels, j'obtiens un bon résultat av
 
 ## Tranchage du poisson pour les Nigiri sushis
 
-Se rapporter à la section [./poisson.md](Poisson). 
+Se rapporter à la section [Poisson](./poisson.md). 
 
 ## Nigiri Sushis
 

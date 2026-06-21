@@ -64,6 +64,7 @@ La technique décrite ici a donc aussi un intérêt pour la texture du poisson.
 Cet [article](https://thejapanesefoodlab.com/ikejime/) détaille davantage le processus biochimique qui intervient pendant la mort du poisson.
 
 ### Technique
+
 La technique précise varie selon la taille du poisson.
 La plupart du temps, elle s'effectue en deux étapes :
 * Une incision rapide derrière la tête, une autre au niveau de la queue.
