@@ -68,6 +68,22 @@ Les bulles qui se sont formées durant le mélange doivent avoir complétement d
 Rincer dans l'eau.
 5. Conserver au frais.
 
+#### Mes expérimentations
+
+La recette ci dessus n'a pas donné de bons résultats dans mon cas, sans utiliser d'eau distillée.
+A tester prochainement : 
+
+* 50g de sirop Teisseire
+* 100mL d'eau filtrée
+* 100mL d'eau distillée
+* 5g d'alginate
+
+
+* 1L d'eau pour 6g de lactate de sodium.
+
+Finalement, trop d'alginate sûrement. 
+A tester avec moins. 
+
 ### Paramètres
 
 2 paramètres sont à prendre en compte sur la solution à emprisonner :
