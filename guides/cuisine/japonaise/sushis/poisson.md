@@ -29,7 +29,7 @@ En France, on peut considérer les poissons suivants :
 
 La qualité du sushi préparé par la plupart des restaurants de sushis japonais ne vient pas exclusivement de la fraîcheur du poisson utilisé. 
 Le poisson servi peut avoir subi un traitement de maturation, qui peut durer d'une journée à plusieurs semaines, dans le but d'améliorer sa texture et ses saveurs.
-On imagine facilement que les différents procédés utilisés proviennent d'une époque précédant l'appparition de la réfrigération moderne. 
+On imagine facilement que les différents procédés utilisés proviennent d'une époque précédant l'apparition de la réfrigération moderne. 
 
 Il existe deux familles de procédés : la maturation à sec, et la maturation humide. 
 Pour la fabrication des sushis à la maison, on retiendra surtout la deuxième famille, beaucoup plus simple à mettre en place sans équipements professionnels coûteux. 

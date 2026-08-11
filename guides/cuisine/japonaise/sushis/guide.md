@@ -95,6 +95,14 @@ Idées
 Peau de saumon croustillante : https://www.youtube.com/watch?v=bELWmbaYECY
 Couper un saumon entier : https://www.youtube.com/watch?v=cH7jFk-C8qI
 
+Pour s'améliorer : 
+
+* Utiliser de l'eau minérale pour laver et cuire le riz à sushis [1](https://www.youtube.com/watch?v=VS2gWrGfCgI)
+* Utiliser un Hangiri pour préparer le riz [2](https://www.youtube.com/watch?v=X-aReUFhRJU)
+https://www.youtube.com/watch?v=b449YHhgmWY
+* Utiliser le même récipient pour mesurer le riz cru et l'eau pour la cuisson.
+L'idéal étant de mettre légèrement moins d'eau que le riz (une graduation de moins avec notre coupe à riz)
+
 
 # Réferences
 
