@@ -3,6 +3,19 @@
 Il existe de nombreuses boissons naturellement pétillantes, issues d'une fermentation.
 Elles sont particulièrement riches en probiotiques.
 
+## Exemples 
+
+Parmi elles, on compte : 
+
+* Le kombucha
+* Le kéfir, d'eau ou de lait
+* Le jun
+* Les ferments au lactosérum
+* Les ferments au naturel, à base de fruits :
+  * levain de gingembre
+  * kvas de betterave
+  * tepache à l'ananas
+
 ## Biologie
 
 La fermentation mise en œuvre est le plus souvent aérobie (jun, kombucha, kéfir), ou anaérobie (comme le kvas de betterave).
@@ -18,11 +31,12 @@ Ces dernières produisent alors du dioxyde de carbone.
 
 Par opposition aux antibiotiques, les aliments probiotiques favorisent le développement de la vie.
 
-[//]: # (TODO)
+[//]: # (TODO : élaborer sur les probiotiques)
 
 ## Principe de base
 
 [//]: # (TODO : à developper)
+
 Toutes les boissons pétillantes se produisent à l'aide de deux étapes de fermentation successives. 
 La première est la phase de fermentation à proprement dit. 
 La seconde permet l'apparition du gaz dans la bouteille. 

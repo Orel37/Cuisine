@@ -28,3 +28,4 @@ Verser le reste du kombucha dans une bouteille de 2L à fermeture hermétique.
 Laisser fermenter pendant 4 à 5 jours à température ambiante, en libérant la pression régulièrement.
 
 ## Mise en repos
+
